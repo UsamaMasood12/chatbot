@@ -11,9 +11,9 @@ class Settings(BaseSettings):
     
     # LLM Configuration
     OPENAI_API_KEY: str = "not-needed-for-free-models"  # Optional now
-    USE_FREE_MODEL: bool = True  # Set to True for free models (HuggingFace)
-    FREE_MODEL_TYPE: str = "huggingface"  # "huggingface" or "groq"
-    GROQ_API_KEY: str = ""  # Get free key from console.groq.com
+    USE_FREE_MODEL: bool = True  # Set to True for free models (HuggingFace/Groq)
+    FREE_MODEL_TYPE: str = "groq"  # "huggingface" or "groq" (groq is faster!)
+    GROQ_API_KEY: str = ""  # Add your free key from console.groq.com
     
     # Application Settings
     APP_NAME: str = "Portfolio Chatbot"

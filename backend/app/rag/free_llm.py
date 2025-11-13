@@ -92,10 +92,19 @@ class HuggingFaceLLM(LLM):
 class GroqFreeLLM(LLM):
     """Free Groq API LLM (much faster than HuggingFace, also free!)"""
 
-    api_key: str = "gsk_free_api_key"  # User needs to get free key from groq.com
+    api_key: str = ""  # Read from config/env
     model_name: str = "llama3-8b-8192"
     temperature: float = 0.2
     max_tokens: int = 500
+
+    def __init__(self, api_key: str = "", **kwargs):
+        super().__init__(**kwargs)
+        if api_key:
+            self.api_key = api_key
+        else:
+            # Try to read from environment
+            import os
+            self.api_key = os.getenv("GROQ_API_KEY", "")
 
     @property
     def _llm_type(self) -> str:
@@ -149,7 +158,8 @@ class GroqFreeLLM(LLM):
 def get_free_llm(
     model_type: str = "huggingface",
     temperature: float = 0.2,
-    max_tokens: int = 500
+    max_tokens: int = 500,
+    groq_api_key: str = ""
 ) -> LLM:
     """
     Get a free LLM instance.
@@ -158,17 +168,30 @@ def get_free_llm(
         model_type: "huggingface" or "groq"
         temperature: Model temperature
         max_tokens: Maximum tokens
+        groq_api_key: Groq API key (if using Groq)
 
     Returns:
         LLM instance
     """
     if model_type == "groq":
         logger.info("Using Groq free API (fast, requires free key)")
-        return GroqFreeLLM(
-            temperature=temperature,
-            max_tokens=max_tokens
-        )
-    else:
+        if not groq_api_key:
+            # Try to read from environment
+            import os
+            groq_api_key = os.getenv("GROQ_API_KEY", "")
+
+        if not groq_api_key or groq_api_key == "PASTE_YOUR_KEY_HERE":
+            logger.error("❌ GROQ_API_KEY not set! Get free key from console.groq.com")
+            logger.info("Falling back to HuggingFace model...")
+            model_type = "huggingface"
+        else:
+            return GroqFreeLLM(
+                api_key=groq_api_key,
+                temperature=temperature,
+                max_tokens=max_tokens
+            )
+
+    if model_type == "huggingface":
         logger.info("Using Hugging Face free model (no key needed, slower)")
         return HuggingFaceLLM(
             temperature=temperature,

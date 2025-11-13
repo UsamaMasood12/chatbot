@@ -49,10 +49,12 @@ class RAGChain:
             logger.info("Using FREE model (no API costs!)")
             try:
                 from app.rag.free_llm import get_free_llm
+                groq_key = os.getenv("GROQ_API_KEY", "")
                 self.llm = get_free_llm(
                     model_type=free_model_type,
                     temperature=temperature,
-                    max_tokens=max_tokens
+                    max_tokens=max_tokens,
+                    groq_api_key=groq_key
                 )
                 logger.info(f"✅ FREE model initialized: {free_model_type}")
             except Exception as e:
