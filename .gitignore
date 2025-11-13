@@ -16,6 +16,9 @@ ENV/
 dist/
 build/
 
+# Node
+node_modules/
+
 # Vector Store & Data
 vector_store/
 *.faiss
@@ -33,6 +36,7 @@ ab_test_results.json
 learning_data.json
 errors.json
 performance.json
+response_cache.json
 
 # IDE
 .vscode/
