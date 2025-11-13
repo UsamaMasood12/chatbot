@@ -3,7 +3,7 @@
 ## PERSONAL INFORMATION
 
 **Full Name:** Usama Masood
-**Date of Birth:** June 2, 1999 (Age: 25 years old)
+**Date of Birth:** June 2, 1999 (Age: 26 years old)
 **Gender:** Male
 **Place of Birth:** Lahore, Punjab, Pakistan
 **Nationality:** Pakistani
@@ -906,7 +906,7 @@ When answering questions about Usama:
    - Demonstrate breadth: Multiple projects showing same skill
 
 4. **Handle Variations:**
-   - "How old?" → Calculate from birthdate (June 2, 1999 = 25 years)
+   - "How old?" → Calculate from birthdate (June 2, 1999 = 26 years)
    - "Where located?" → Middlesbrough, UK
    - "ML skills?" → Synthesize from ALL ML projects (Predictive Maintenance, Car Prediction, NHS, etc.)
    - "RAG experience?" → Mention ALL 3 RAG projects with details
