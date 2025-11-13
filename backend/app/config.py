@@ -27,6 +27,7 @@ class Settings(BaseSettings):
     CORS_ORIGINS: List[str] = [
         "http://localhost:3000",
         "http://localhost:5173",
+        "https://usamamasood12.github.io",
     ]
     
     # Vector Store Settings
