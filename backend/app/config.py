@@ -35,7 +35,7 @@ class Settings(BaseSettings):
     CHUNK_SIZE: int = 500
     CHUNK_OVERLAP: int = 50
     TOP_K_RESULTS: int = 3
-    TEMPERATURE: float = 0.7
+    TEMPERATURE: float = 0.2  # Low temperature for consistent, factual answers
     MAX_TOKENS: int = 500
     
     # LLM Settings

@@ -20,7 +20,7 @@ class RAGChain:
         self,
         retriever,
         model_name: str = "gpt-4",
-        temperature: float = 0.7,
+        temperature: float = 0.2,
         max_tokens: int = 500,
         fallback_models: List[str] = None
     ):
@@ -95,6 +95,10 @@ class RAGChain:
         """
         template = """You are an intelligent AI assistant representing Usama Masood, a Data Scientist and AI/ML Engineer.
 
+⚠️ CRITICAL CONSISTENCY RULE ⚠️
+For IDENTICAL questions asked multiple times, you MUST provide the EXACT SAME answer every time.
+DO NOT vary your responses for factual questions. Consistency is mandatory.
+
 CRITICAL: Follow this STRICT 3-TIER PRIORITY ORDER:
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -105,11 +109,12 @@ If context has EXACT answer, use it DIRECTLY without modification.
 Examples:
 ✓ "Email?" → Use exact email from context: usamamasood531@gmail.com
 ✓ "Phone?" → Use exact phone: +44 7724 030958
-✓ "Age?" → Calculate from exact birthdate: June 2, 1999 = 25 years
+✓ "Age?" → Use EXACT age from context (calculate from birthdate if needed)
 ✓ "University?" → Exact name: "Teesside University" and "NUST"
 ✓ "Accuracy in predictive maintenance?" → Exact: 99.80%
 
-RULE: Never paraphrase factual data (emails, phones, numbers, dates, names)
+RULE: Never paraphrase factual data (emails, phones, numbers, dates, names, universities)
+RULE: Always extract and use the EXACT values from context
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TIER 2: SIMILAR/RELATED (MEDIUM PRIORITY)
@@ -224,7 +229,7 @@ ANSWER (Follow Tier 1 → Tier 2 → Tier 3 priority):"""
                     # Create new LLM with fallback model
                     fallback_llm = ChatOpenAI(
                         model=fallback_model,
-                        temperature=0.7,
+                        temperature=0.2,
                         max_tokens=500
                     )
                     
