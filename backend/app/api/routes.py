@@ -146,24 +146,14 @@ async def chat(request: ChatRequest, req: Request) -> ChatResponse:
             question=sanitized_message,
             conversation_history=conversation_history
         )
-        
+
         # Generate conversation ID if not provided
         conversation_id = request.session_id or str(uuid.uuid4())
-        
-        # Format sources
-        sources = [
-            Source(
-                content=src["content"],
-                metadata=src["metadata"],
-                relevance_score=src.get("relevance_score")
-            )
-            for src in result["sources"]
-        ]
-        
-        # Create response
+
+        # Create response (no sources)
         response = ChatResponse(
             response=result["answer"],
-            sources=sources,
+            sources=[],  # No sources
             conversation_id=conversation_id,
             model_used=result["model_used"],
             processing_time=result["processing_time"]
@@ -180,7 +170,7 @@ async def chat(request: ChatRequest, req: Request) -> ChatResponse:
             session_id=conversation_id,
             processing_time=result["processing_time"],
             category=query_category,
-            sources_count=len(sources)
+            sources_count=0  # No sources
         )
         
         # Send email notification if recruiter detected

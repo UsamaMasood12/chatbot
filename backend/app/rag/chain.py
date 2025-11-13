@@ -104,7 +104,7 @@ class RAGChain:
             llm=self.llm,
             retriever=base_retriever,
             memory=self.memory,
-            return_source_documents=True,
+            return_source_documents=False,  # Don't return sources
             combine_docs_chain_kwargs={"prompt": self.prompt},
             verbose=True
         )
@@ -114,82 +114,26 @@ class RAGChain:
     def _create_prompt(self) -> PromptTemplate:
         """
         Create custom prompt template for the chatbot.
-        
+
         Returns:
             PromptTemplate object
         """
-        template = """You are an intelligent AI assistant representing Usama Masood, a Data Scientist and AI/ML Engineer.
+        template = """You are an AI assistant answering questions about Usama Masood, a Data Scientist and AI/ML Engineer.
 
-⚠️ CRITICAL CONSISTENCY RULE ⚠️
-For IDENTICAL questions asked multiple times, you MUST provide the EXACT SAME answer every time.
-DO NOT vary your responses for factual questions. Consistency is mandatory.
-
-CRITICAL: Follow this STRICT 3-TIER PRIORITY ORDER:
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TIER 1: EXACT MATCH (HIGHEST PRIORITY)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-If context has EXACT answer, use it DIRECTLY without modification.
-
-Examples:
-✓ "Email?" → Use exact email from context: usamamasood531@gmail.com
-✓ "Phone?" → Use exact phone: +44 7724 030958
-✓ "Age?" → Use EXACT age from context (calculate from birthdate if needed)
-✓ "University?" → Exact name: "Teesside University" and "NUST"
-✓ "Accuracy in predictive maintenance?" → Exact: 99.80%
-
-RULE: Never paraphrase factual data (emails, phones, numbers, dates, names, universities)
-RULE: Always extract and use the EXACT values from context
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TIER 2: SIMILAR/RELATED (MEDIUM PRIORITY)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-If no exact match, SYNTHESIZE from related information in context.
-
-Examples:
-✓ "ML skills?" → Combine from ALL ML projects:
-  - Predictive Maintenance: SVM, Random Forest, XGBoost (9 algorithms)
-  - Car Price: Random Forest, XGBoost, regression
-  - IBM Course: Supervised/Unsupervised learning
-  
-✓ "RAG work?" → Mention ALL 3 RAG projects:
-  - Enterprise AI Assistant (ChromaDB, LangChain)
-  - Donor Chatbot (FAISS, 90% accuracy)
-  - Portfolio Chatbot (production system)
-
-✓ "Deep Learning?" → Look for evidence:
-  - TensorFlow, PyTorch in skills
-  - Neural Networks in projects
-  - CNN, RNN, Transformers mentioned
-
-RULE: Only synthesize from information PRESENT in context
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TIER 3: INTELLIGENT INFERENCE (LAST RESORT)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-ONLY if Tiers 1 & 2 have NO information, make reasonable inference.
-
-MUST clearly indicate inference:
-✓ "Based on Usama's role as Data Scientist, he likely has..."
-✓ "Given his MSc in Data Science, he would be familiar with..."
-✓ "As an AI/ML Engineer, typical skills would include..."
-
-NEVER infer:
-✗ Specific project names not in context
-✗ Exact numbers, dates, or metrics
-✗ Technologies not mentioned anywhere
-✗ Company names or clients
-
-If truly no information: "I don't have that specific information, but I can tell you about [related topic]"
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+INSTRUCTIONS:
+1. Read the CONTEXT below carefully - it contains all the factual information about Usama
+2. Answer the QUESTION using ONLY information from the CONTEXT
+3. For factual data (phone, email, names, dates, universities), copy EXACTLY from context
+4. Always give the SAME answer for the SAME question - be consistent
+5. If you reference previous conversation, use the chat history to understand the context
+6. If information is NOT in context, say "I don't have that information"
 
 CONTEXT FROM KNOWLEDGE BASE:
 {context}
 
 QUESTION: {question}
 
-ANSWER (Follow Tier 1 → Tier 2 → Tier 3 priority):"""
+ANSWER (Extract facts directly from context above):"""
 
         return PromptTemplate(
             template=template,
@@ -220,26 +164,15 @@ ANSWER (Follow Tier 1 → Tier 2 → Tier 3 priority):"""
             
             # Query the chain
             result = self.chain({"question": question})
-            
+
             processing_time = time.time() - start_time
-            
-            # Extract source documents
-            sources = []
-            if "source_documents" in result:
-                for doc in result["source_documents"]:
-                    sources.append({
-                        "content": doc.page_content,
-                        "metadata": doc.metadata,
-                        "relevance_score": None  # Add scoring in future
-                    })
-            
+
             response = {
                 "answer": result["answer"],
-                "sources": sources,
                 "processing_time": processing_time,
                 "model_used": self.model_name
             }
-            
+
             logger.info(f"Query processed in {processing_time:.2f}s")
             return response
             
@@ -270,22 +203,11 @@ ANSWER (Follow Tier 1 → Tier 2 → Tier 3 priority):"""
                     
                     result = fallback_chain({"question": question})
                     processing_time = time.time() - start_time
-                    
-                    # Extract sources
-                    sources = []
-                    if "source_documents" in result:
-                        for doc in result["source_documents"]:
-                            sources.append({
-                                "content": doc.page_content,
-                                "metadata": doc.metadata,
-                                "relevance_score": None
-                            })
-                    
+
                     logger.info(f"Fallback model {fallback_model} succeeded")
-                    
+
                     return {
                         "answer": result["answer"],
-                        "sources": sources,
                         "processing_time": processing_time,
                         "model_used": fallback_model
                     }
