@@ -3,7 +3,7 @@
  * Handles the entire chat interface and logic
  */
 import React, { useState, useEffect, useRef } from 'react';
-import { MessageCircle, X, Send, Loader2, RotateCcw, Info, Moon, Sun, Download, Mic, Volume2, VolumeX, ThumbsUp, ThumbsDown } from 'lucide-react';
+import { MessageCircle, X, Send, Loader2, RotateCcw, Info, Moon, Sun, Download, Mic, Volume2, VolumeX } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -25,7 +25,6 @@ const ChatBot = () => {
   const [showSuggestions, setShowSuggestions] = useState(true);
   const [darkMode, setDarkMode] = useState(false);
   const [voiceEnabled, setVoiceEnabled] = useState(false);
-  const [messageRatings, setMessageRatings] = useState({});
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
@@ -38,35 +37,6 @@ const ChatBot = () => {
       setInputValue(transcript);
     }
   }, [transcript]);
-  
-  const handleRating = async (messageIndex, rating) => {
-    try {
-      const message = messages[messageIndex];
-      const previousMessage = messages[messageIndex - 1];
-      
-      await axios.post(`${API_URL}/feedback/rating`, {
-        rating,
-        query: previousMessage?.content || '',
-        response: message.content,
-        session_id: sessionId,
-        comment: null
-      });
-      const params = new URLSearchParams();
-      params.append('rating', rating);
-      params.append('query', previousMessage?.content || '');
-      params.append('response', message.content);
-      params.append('session_id', sessionId);
-
-      await axios.post(`${API_URL}/feedback/rating`, params);
-
-      setMessageRatings(prev => ({
-        ...prev,
-        [messageIndex]: rating
-      }));
-    } catch (error) {
-      console.error('Error submitting rating:', error);
-    }
-  };
 
   // Load dark mode preference and chat history from localStorage
   useEffect(() => {
@@ -155,7 +125,6 @@ const ChatBot = () => {
         role: 'assistant',
         content: response.response,
         timestamp: response.timestamp,
-        sources: response.sources || [],
         processingTime: response.processing_time,
       };
 
@@ -334,12 +303,10 @@ const ChatBot = () => {
             darkMode ? 'bg-gray-900' : 'bg-gray-50'
           }`}>
             {messages.map((message, index) => (
-              <Message 
-                key={index} 
-                message={message} 
+              <Message
+                key={index}
+                message={message}
                 darkMode={darkMode}
-                onRate={!message.role || message.role === 'assistant' ? (rating) => handleRating(index, rating) : null}
-                rating={messageRatings[index]}
               />
             ))}
             
@@ -418,7 +385,7 @@ const ChatBot = () => {
 };
 
 // Message Component
-const Message = ({ message, darkMode, onRate, rating }) => {
+const Message = ({ message, darkMode }) => {
   const isUser = message.role === 'user';
   const isError = message.isError;
 
@@ -466,19 +433,7 @@ const Message = ({ message, darkMode, onRate, rating }) => {
                   {message.content}
                 </ReactMarkdown>
               </div>
-              
-              {message.sources && message.sources.length > 0 && (
-                <div className="mt-3 pt-3 border-t border-gray-200">
-                  <p className="text-xs text-gray-600 font-medium mb-2">Sources:</p>
-                  {message.sources.slice(0, 2).map((source, index) => (
-                    <div key={index} className="text-xs text-gray-500 mb-1">
-                      <span className="font-medium">{source.metadata.source}</span>
-                      {source.metadata.section && ` - ${source.metadata.section}`}
-                    </div>
-                  ))}
-                </div>
-              )}
-              
+
               {message.processingTime && (
                 <p className="text-xs text-gray-400 mt-2">
                   {message.processingTime.toFixed(2)}s
@@ -487,43 +442,6 @@ const Message = ({ message, darkMode, onRate, rating }) => {
             </>
           )}
         </div>
-        
-        {/* Feedback buttons for assistant messages */}
-        {!isUser && onRate && (
-          <div className={`flex items-center space-x-2 px-3 pb-2 border-t ${
-            darkMode ? 'border-gray-700' : 'border-gray-200'
-          }`}>
-            <span className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-              Helpful?
-            </span>
-            <button
-              onClick={() => onRate('positive')}
-              className={`p-1 rounded transition-colors ${
-                rating === 'positive'
-                  ? 'text-green-500'
-                  : darkMode
-                  ? 'text-gray-500 hover:text-green-400'
-                  : 'text-gray-400 hover:text-green-500'
-              }`}
-              aria-label="Thumbs up"
-            >
-              <ThumbsUp size={14} />
-            </button>
-            <button
-              onClick={() => onRate('negative')}
-              className={`p-1 rounded transition-colors ${
-                rating === 'negative'
-                  ? 'text-red-500'
-                  : darkMode
-                  ? 'text-gray-500 hover:text-red-400'
-                  : 'text-gray-400 hover:text-red-500'
-              }`}
-              aria-label="Thumbs down"
-            >
-              <ThumbsDown size={14} />
-            </button>
-          </div>
-        )}
       </div>
     </div>
   );

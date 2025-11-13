@@ -37,7 +37,7 @@ class Settings(BaseSettings):
     # RAG Settings
     CHUNK_SIZE: int = 500
     CHUNK_OVERLAP: int = 50
-    TOP_K_RESULTS: int = 3
+    TOP_K_RESULTS: int = 5  # Retrieve more documents for better context
     TEMPERATURE: float = 0.2  # Low temperature for consistent, factual answers
     MAX_TOKENS: int = 500
     
