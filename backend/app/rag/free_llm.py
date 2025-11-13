@@ -93,7 +93,7 @@ class GroqFreeLLM(LLM):
     """Free Groq API LLM (much faster than HuggingFace, also free!)"""
 
     api_key: str = ""  # Read from config/env
-    model_name: str = "llama3-8b-8192"
+    model_name: str = "llama-3.1-8b-instant"  # Updated to current Groq model
     temperature: float = 0.2
     max_tokens: int = 500
 
