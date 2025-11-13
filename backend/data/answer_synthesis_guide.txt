@@ -1,0 +1,172 @@
+# QUICK REFERENCE GUIDE FOR COMMON QUERIES
+
+## Machine Learning Skills - Evidence from Projects
+
+**Question: "What are Usama's machine learning skills?"**
+
+**Answer should synthesize from:**
+
+1. **Predictive Maintenance Project:**
+   - Compared 9 ML algorithms: SVM, Random Forest, XGBoost, Neural Networks, Decision Trees, KNN, Logistic Regression, Naive Bayes, AdaBoost
+   - Achieved 99.80% accuracy with SVM
+   - Applied SMOTE for class imbalancing
+   - Built LIME framework for model explainability
+   - Techniques: Cross-validation, hyperparameter tuning, statistical validation
+
+2. **Used Car Price Prediction:**
+   - Random Forest and XGBoost regression
+   - R² score of 0.8747
+   - GridSearchCV for hyperparameter optimization
+   - Advanced feature engineering
+
+3. **IBM Data Science Certificate:**
+   - Machine Learning with Python course (89% grade)
+   - Supervised and Unsupervised Learning
+   - Model evaluation and validation
+
+4. **NHS Data Analysis:**
+   - Statistical hypothesis testing
+   - A/B testing
+   - Regression analysis
+
+**Comprehensive Answer:**
+Usama has extensive machine learning skills demonstrated across multiple projects:
+- Classical ML: SVM (99.8% accuracy), Random Forest (R²=0.87), XGBoost, Neural Networks, Decision Trees
+- Techniques: Cross-validation, hyperparameter tuning (GridSearchCV), SMOTE balancing, LIME explainability
+- Statistical Methods: Hypothesis testing, A/B testing, regression analysis
+- Frameworks: Scikit-learn, TensorFlow, PyTorch
+- 9 algorithms compared in predictive maintenance project
+
+---
+
+## Deep Learning Skills
+
+**Evidence:**
+1. TensorFlow and PyTorch experience listed in skills
+2. Neural Networks used in predictive maintenance
+3. CNN, RNN, LSTM, Transformers knowledge
+4. Computer Vision projects
+5. NLP with transformers (BERT, GPT)
+
+---
+
+## RAG & LLM Work
+
+**Question: "What RAG work has Usama done?"**
+
+**Projects with RAG:**
+
+1. **Enterprise AI Knowledge Assistant**
+   - Full RAG pipeline with ChromaDB vector storage
+   - LangChain and LangGraph orchestration
+   - Ollama for local LLM inference
+   - Multi-agent architecture
+
+2. **AI Chatbot for Donor Support (MSc Thesis)**
+   - RAG-based conversational AI for FURBD charity
+   - FAISS vector database
+   - LangChain orchestration
+   - 90%+ query resolution accuracy
+   - 60% improvement in response time
+
+3. **Portfolio Chatbot (Current Project)**
+   - RAG architecture with FAISS
+   - GPT-3.5/GPT-4 integration
+   - Hybrid search (semantic + keyword)
+   - FastAPI + React full-stack
+   - Production deployment
+
+**Comprehensive Answer:**
+Usama has extensive RAG experience with 3 major projects:
+- Implemented RAG pipelines using LangChain framework
+- Vector databases: FAISS and ChromaDB
+- LLMs: OpenAI GPT-3.5/4, Ollama
+- 90%+ accuracy, 60% response time improvement
+- Production deployments with real organizations
+
+---
+
+## Work Experience
+
+**Question: "What is Usama's work experience?"**
+
+**Synthesize from:**
+
+1. **Web Developer Intern - Techionik (June-Sep 2023)**
+   - 4 months professional experience
+   - Developed 5+ client websites
+   - HTML, CSS, Bootstrap, JavaScript, Firebase
+   - Agile team of 8 developers
+   - Improved load times by 40%
+
+2. **MSc Thesis with Real Organization**
+   - Working with FURBD charity (UK)
+   - Real-world AI deployment
+   - Production chatbot handling 1000+ monthly queries
+
+3. **Multiple Portfolio Projects**
+   - Enterprise AI systems
+   - NHS data analysis
+   - Predictive maintenance for manufacturing
+
+**Comprehensive Answer:**
+- Professional: Web Developer Intern at Techionik (June-Sep 2023, 4 months)
+- Academic + Real-world: MSc thesis project with FURBD charity, deployed production AI chatbot
+- Project Experience: Multiple production-ready AI/ML projects including enterprise systems and healthcare analytics
+- Proven track record: 5+ delivered client projects, 90%+ accuracy in ML systems
+
+---
+
+## LLM Models Experience
+
+**Question: "What LLM models has Usama worked with?"**
+
+**Evidence from projects:**
+- OpenAI GPT-3.5 and GPT-4 (donor chatbot, portfolio chatbot)
+- Ollama for local inference (enterprise AI assistant)
+- Fine-tuning capabilities mentioned in skills
+- LangChain for LLM orchestration
+- Prompt engineering expertise
+
+---
+
+## Production Systems
+
+**Question: "Has Usama built production systems?"**
+
+**Yes - Multiple:**
+
+1. **AI Chatbot for FURBD Charity**
+   - Live production system
+   - 1000+ monthly queries
+   - 24/7 availability
+   - Real users, real impact
+
+2. **Portfolio Chatbot**
+   - Current production deployment
+   - FastAPI backend + React frontend
+   - Docker containerization
+   - Full CI/CD pipeline
+
+3. **Client Websites at Techionik**
+   - 5+ production websites
+   - Real clients
+   - Firebase backend
+
+**Key Features of Production Experience:**
+- Error handling and monitoring
+- Rate limiting and security
+- Analytics and logging
+- Performance optimization (<2s response times)
+- User feedback systems
+
+---
+
+## Usage Instructions for GPT
+
+When answering questions:
+1. Look for evidence across MULTIPLE documents
+2. COMBINE information from different sources
+3. Provide SPECIFIC examples with numbers
+4. Show DEPTH through project details
+5. Never say "no information" if you can infer from projects

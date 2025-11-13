@@ -1,0 +1,871 @@
+# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE
+
+## PERSONAL INFORMATION
+
+**Full Name:** Usama Masood
+**Date of Birth:** June 2, 1999 (Age: 25 years old)
+**Gender:** Male
+**Place of Birth:** Lahore, Punjab, Pakistan
+**Nationality:** Pakistani
+**Current Location:** Middlesbrough, United Kingdom
+
+## CONTACT INFORMATION
+
+**Email:** usamamasood531@gmail.com
+**Phone:** +44 7724 030958
+**LinkedIn:** linkedin.com/in/masood-usama
+**GitHub:** github.com/UsamaMasood12
+**Portfolio Website:** https://usamamasood12.github.io/Portfolio
+
+## VISA & WORK AUTHORIZATION
+
+**Current Visa:** Student Visa (Valid until May 2026)
+**Future Visa:** Graduate Visa (2 years, from May 2026 to May 2028)
+**Work Authorization:** Fully eligible to work in the United Kingdom
+**Work Hours:** Full-time availability from February 2026
+
+## AVAILABILITY & WORK PREFERENCES
+
+**Current Status:** Open to opportunities
+**Available From:** February 2026 (after MSc completion)
+**Work Type:** Open to all types (Remote, Hybrid, On-site)
+**Relocation:** Willing to relocate anywhere in the United Kingdom
+**Preferred Roles:** Data Scientist, ML Engineer, AI Engineer, Data Analyst
+**Salary Expectations:** Competitive and dependent on role requirements
+
+## EDUCATION
+
+### Master of Science in Data Science with Advanced Practice
+**University:** Teesside University, Middlesbrough, UK
+**Duration:** May 2024 - February 2026
+**Expected Grade:** Distinction (Aiming for)
+**Thesis:** AI Chatbot for Donor Support using RAG architecture, LangChain, Large Language Models (LLMs), and FAISS vector database
+**Key Focus Areas:** Machine Learning, Artificial Intelligence, Deep Learning, Natural Language Processing, Business Intelligence
+
+### Bachelor of Science in Electrical Engineering
+**University:** National University of Science and Technology (NUST), Islamabad, Pakistan
+**Graduation Year:** 2021
+**Institution Reputation:** Top-ranked engineering university in Pakistan
+
+### Higher Secondary Education (12th Standard)
+**Year:** 2017
+**Percentage:** 87%
+**Location:** Lahore, Punjab, Pakistan
+
+### Secondary Education (10th Standard)
+**Year:** 2015
+**Score:** 1039/1100 (94.45%)
+**Location:** Lahore, Punjab, Pakistan
+**Notable:** Strong performance in Mathematics and Sciences
+
+## ACADEMIC STRENGTHS
+
+- **Mathematics:** Exceptional mathematical skills and problem-solving abilities
+- **Problem Solving:** Expert in analytical thinking and IQ-based challenges
+- **Statistical Analysis:** Strong foundation in statistical methods and data analysis
+- **Analytical Thinking:** Excellent at breaking down complex problems into manageable solutions
+
+## PROFESSIONAL CERTIFICATIONS
+
+### IBM Data Science Professional Certificate (Coursera)
+**Completion Date:** October 24, 2023
+**Duration:** Approximately 4 months (10 hours/week)
+**Overall Performance:** Excellent (Multiple 95%+ scores)
+**Verification:** Coursera Verified Certificate
+
+**Course Components & Grades:**
+
+1. **What is Data Science?**
+   - Grade: 99%
+   - Completed: September 4, 2023
+   - Duration: 3 weeks, 2-3 hours/week
+
+2. **Tools for Data Science**
+   - Grade: 96%
+   - Completed: September 15, 2023
+   - Duration: 3 weeks, 2-3 hours/week
+   - Skills: Jupyter, Python, R, SQL, Git
+
+3. **Data Science Methodology**
+   - Grade: 100%
+   - Completed: September 18, 2023
+   - Duration: 3 weeks, 2-3 hours/week
+
+4. **Python for Data Science, AI & Development**
+   - Grade: 100%
+   - Completed: September 20, 2023
+   - Duration: 5 weeks, 3-6 hours/week
+
+5. **Python Project for Data Science**
+   - Grade: 100%
+   - Completed: September 22, 2023
+
+6. **Databases and SQL for Data Science with Python**
+   - Grade: 98.26%
+   - Completed: September 26, 2023
+   - Duration: 6 weeks, 2-4 hours/week
+
+7. **Data Analysis with Python**
+   - Grade: 98.44%
+   - Completed: October 8, 2023
+   - Duration: 6 weeks, 2 hours/week
+
+8. **Data Visualization with Python**
+   - Grade: 96.87%
+   - Completed: October 16, 2023
+   - Duration: 3 weeks, 4-5 hours/week
+
+9. **Machine Learning with Python**
+   - Grade: 89%
+   - Completed: October 21, 2023
+   - Duration: 5-6 weeks, 3-6 hours/week
+
+10. **Applied Data Science Capstone**
+    - Grade: 95%
+    - Completed: October 24, 2023
+    - Duration: 5 weeks, 10-15 hours/week (45 hours total)
+
+**Skills Gained from IBM Certificate:**
+- Professional Data Science Networking
+- Advanced Data Analysis and Visualization
+- Generative AI concepts
+- Supervised and Unsupervised Machine Learning
+- SQL and Database Management
+- Data Cleansing and Import/Export
+- Exploratory Data Analysis (EDA)
+- Jupyter Notebooks
+- Plotly, Matplotlib, Seaborn
+- Python (Pandas, NumPy, Scikit-learn)
+- Real-world project implementation
+
+### NHS Online Career Challenges (DigData Programme)
+**Institution:** NHS Digital via DigData Programme
+**Type:** Advanced Data Analysis Challenges
+**Certifications Earned:** 3 Domain-Specific Certificates
+
+1. **Excel Advanced Challenge Certificate**
+   - Advanced Excel techniques for healthcare data
+   - Complex formulas and data modeling
+   - Dashboard creation and data visualization
+   - Healthcare metrics analysis
+
+2. **R Programming Advanced Challenge Certificate**
+   - Statistical computing in R
+   - Healthcare data analysis
+   - Advanced R visualizations (ggplot2)
+   - Statistical modeling
+
+3. **Python Advanced Challenge Certificate**
+   - Healthcare data processing with Python
+   - Data analysis with Pandas and NumPy
+   - Python visualizations
+   - Statistical analysis and reporting
+
+**Skills Demonstrated:**
+- Ability to work with real-world NHS healthcare datasets (100,000+ records)
+- Advanced proficiency in Excel, R, and Python
+- Healthcare domain knowledge
+- Data-driven decision making
+- Statistical analysis at professional level
+
+### Additional Certifications
+- Introduction to Data Science Specialization
+- Web Development Specialization
+
+## KEY PROJECTS (DETAILED)
+
+### 1. Enterprise AI Knowledge Assistant
+**GitHub:** https://github.com/UsamaMasood12/enterprise-ai-assistant
+**Technologies:** LangChain, LangGraph, Ollama, ChromaDB, RAG, FastAPI, NLP, OpenAI, AWS
+**Duration:** 3 months (Recent)
+**Team Size:** Solo project
+
+**Project Description:**
+Developed a sophisticated multi-agent AI system for processing and querying personal knowledge bases using advanced Natural Language Processing and Retrieval-Augmented Generation.
+
+**Technical Implementation:**
+- Built multi-agent architecture with specialized agents for retrieval, research, writing, and critique
+- Implemented RAG pipeline with ChromaDB vector storage for efficient semantic search
+- Integrated Ollama for local LLM inference ensuring data privacy
+- Created FastAPI REST endpoints for seamless integration
+- Deployed on AWS with Lambda functions for scalability
+
+**Key Achievements:**
+- 90%+ query accuracy with sub-2-second response times
+- Processed 10,000+ documents with efficient chunking strategies
+- Implemented context-aware responses using conversation memory
+- Created production-ready deployment pipeline
+
+**Skills Demonstrated:**
+- Advanced LangChain and LangGraph orchestration
+- Vector database optimization
+- RESTful API design
+- Cloud deployment (AWS)
+- System architecture design
+
+### 2. AI Chatbot for Donor Support (MSc Thesis Project)
+**GitHub:** https://github.com/UsamaMasood12/donor-support-chatbot
+**Technologies:** LangChain, RAG, FAISS, GPT-3.5/GPT-4, NLP, FastAPI, React
+**Duration:** 6 months (Ongoing thesis)
+**Organization:** FURBD Charity (UK)
+
+**Project Description:**
+Developed an intelligent RAG-based conversational AI system for a UK charity organization to automate donor queries and support operations.
+
+**Technical Implementation:**
+- Implemented FAISS vector database for ultra-fast information retrieval
+- Built hybrid search combining semantic and keyword-based retrieval
+- Integrated OpenAI GPT models with custom prompt engineering
+- Created React-based user interface with voice support
+- Implemented multi-language support (12 languages)
+
+**Business Impact:**
+- Achieved 90%+ query resolution accuracy
+- Reduced response time by 60% compared to manual handling
+- Handles 1000+ monthly queries autonomously
+- 24/7 availability for donor support
+
+**Key Features:**
+- Context-aware conversations with memory
+- Source citation for transparency
+- Sentiment analysis for donor satisfaction
+- Analytics dashboard for insights
+- Rate limiting and security features
+
+**Skills Demonstrated:**
+- End-to-end AI product development
+- RAG architecture implementation
+- Full-stack development (FastAPI + React)
+- Production deployment
+- User experience design
+
+### 3. Predictive Maintenance in Manufacturing
+**GitHub:** https://github.com/UsamaMasood12/predictive-maintenance
+**Technologies:** Python, SVM, TensorFlow, LIME, Scikit-learn, Statistical Analysis
+**Dataset Size:** 10,000+ data points
+**Duration:** 2 months
+
+**Project Description:**
+Machine learning solution for predicting equipment failures in manufacturing environments to enable proactive maintenance.
+
+**Technical Implementation:**
+- Compared 9 machine learning algorithms: SVM, Random Forest, XGBoost, Neural Networks, Decision Trees, KNN, Logistic Regression, Naive Bayes, AdaBoost
+- Applied SMOTE (Synthetic Minority Over-sampling Technique) for class imbalance
+- Built LIME explainability framework for model interpretability
+- Performed extensive feature engineering and selection
+- Statistical validation using cross-validation
+
+**Results:**
+- **Best Model:** Support Vector Machine (SVM)
+- **Accuracy:** 99.80%
+- **Precision:** 99.5%
+- **Recall:** 99.3%
+- **F1-Score:** 99.4%
+
+**Business Value:**
+- Reduced unplanned downtime by 70%
+- Cost savings through preventive maintenance
+- Improved equipment lifecycle management
+
+**Skills Demonstrated:**
+- Comparative algorithm analysis
+- Imbalanced data handling
+- Model explainability (LIME)
+- Statistical validation
+- Production ML pipeline
+
+### 4. Used Car Price Prediction
+**GitHub:** https://github.com/UsamaMasood12/car-price-prediction
+**Technologies:** Python, Random Forest, XGBoost, Scikit-learn, Feature Engineering
+**Dataset Size:** 50,000+ vehicle records
+**Duration:** 1.5 months
+
+**Project Description:**
+Regression model for predicting used car prices based on multiple features including make, model, year, mileage, and condition.
+
+**Technical Implementation:**
+- Advanced feature engineering: polynomial features, interaction terms
+- Compared 5 algorithms: Random Forest, XGBoost, Linear Regression, Ridge, Lasso
+- Hyperparameter tuning using GridSearchCV and RandomizedSearchCV
+- Extensive EDA with correlation analysis
+- Outlier detection and treatment
+
+**Results:**
+- **R² Score:** 0.8747 (87.47% variance explained)
+- **Mean Absolute Error:** $1,250
+- **Root Mean Squared Error:** $1,850
+
+**Key Features:**
+- Real-time price prediction API
+- Confidence intervals for predictions
+- Feature importance analysis
+- Model versioning and tracking
+
+**Skills Demonstrated:**
+- Regression modeling
+- Feature engineering
+- Hyperparameter optimization
+- Model evaluation metrics
+- API development
+
+### 5. NHS Digital Data Analysis Challenge
+**GitHub:** https://github.com/UsamaMasood12/nhs-data-challenge
+**Technologies:** Excel, Python, R, Statistical Analysis, Data Visualization
+**Dataset Size:** 100,000+ healthcare records
+**Duration:** 1 month (Challenge completion)
+
+**Project Description:**
+Comprehensive analysis of NHS healthcare dataset to identify patterns, insights, and recommendations for healthcare improvements.
+
+**Technical Implementation:**
+
+**Excel Analysis:**
+- Created interactive dashboards with pivot tables
+- Advanced formulas (INDEX-MATCH, VLOOKUP, array formulas)
+- Conditional formatting for data insights
+- What-if analysis and scenario planning
+
+**Python Analysis:**
+- Statistical testing (t-tests, chi-square, ANOVA)
+- Pandas for data manipulation
+- Hypothesis testing and A/B testing
+- Time series analysis
+
+**R Analysis:**
+- ggplot2 for advanced visualizations
+- dplyr for data wrangling
+- Statistical modeling with R
+- Shiny dashboard for interactive reporting
+
+**Key Findings:**
+- Identified patient demographic patterns
+- Analyzed treatment outcome correlations
+- Discovered seasonal healthcare trends
+- Provided data-driven policy recommendations
+
+**Skills Demonstrated:**
+- Multi-tool proficiency (Excel, Python, R)
+- Healthcare domain knowledge
+- Statistical hypothesis testing
+- Data storytelling
+- Business insight generation
+
+### 6. Interactive Plastic Pollution Visualization
+**GitHub:** https://github.com/UsamaMasood12/plastic-pollution-viz
+**Technologies:** D3.js, JavaScript, HTML, CSS, Data Visualization
+**Scope:** 195+ countries worldwide
+**Duration:** 2 months (Team project)
+
+**Project Description:**
+Interactive web-based data visualization showing global plastic pollution levels and trends using D3.js library.
+
+**Technical Implementation:**
+- Developed choropleth map with multi-level filtering
+- Implemented zoom/pan functionality
+- Created drill-down capabilities for country-level details
+- Real-time data updates and transitions
+- Responsive design for all devices
+
+**Visualizations Created:**
+1. Global choropleth map
+2. Time-series line charts
+3. Bar charts for country comparisons
+4. Scatter plots for correlations
+
+**Features:**
+- Interactive tooltips with detailed statistics
+- Filter by year, region, pollution type
+- Compare multiple countries
+- Export functionality for reports
+
+**Team Collaboration:**
+- Worked in team of 4 developers
+- Used Git for version control
+- Agile methodology with weekly sprints
+- Code reviews and pair programming
+
+**Skills Demonstrated:**
+- D3.js and JavaScript expertise
+- Data visualization best practices
+- Frontend development
+- Team collaboration
+- Git workflow
+
+### 7. Power BI Jewelry Analytics Dashboard
+**GitHub:** https://github.com/UsamaMasood12/powerbi-jewelry-dashboard
+**Technologies:** Power BI, DAX, SQL, Business Intelligence
+**Data Model:** Star Schema
+**Duration:** 1 month
+
+**Project Description:**
+Comprehensive Business Intelligence dashboard for jewelry retail business tracking revenue, profit margins, inventory, and customer insights.
+
+**Technical Implementation:**
+- Designed star schema data model with fact and dimension tables
+- Created 50+ DAX measures including:
+  - Time intelligence (YoY, MoM growth)
+  - Running totals and moving averages
+  - Profit margin calculations
+  - Inventory turnover ratios
+- Built 5 interactive dashboard pages
+- Implemented row-level security (RLS)
+- Scheduled data refresh automation
+
+**Dashboard Pages:**
+1. Executive Summary (KPIs)
+2. Sales Analysis
+3. Profit Margin Analysis
+4. Inventory Management
+5. Customer Insights
+
+**Business Metrics Tracked:**
+- Revenue ($2M+ annually)
+- Profit margins by category
+- Inventory turnover rates
+- Customer lifetime value
+- Sales trends and seasonality
+
+**Skills Demonstrated:**
+- Power BI development
+- DAX formula creation
+- Data modeling (star schema)
+- Business intelligence
+- Stakeholder reporting
+
+### 8. Portfolio Chatbot (Current Project)
+**GitHub:** https://github.com/UsamaMasood12/portfolio-chatbot
+**Technologies:** FastAPI, React, LangChain, FAISS, GPT-4, Docker, AWS
+**Status:** Production-ready
+**Duration:** 3 months
+
+**Project Description:**
+AI-powered chatbot for portfolio website that answers recruiter questions about skills, experience, and projects using RAG architecture.
+
+**Technical Stack:**
+
+**Backend:**
+- FastAPI with async support
+- LangChain for LLM orchestration
+- FAISS vector database
+- GPT-3.5/GPT-4 integration
+- Hybrid search (semantic + keyword)
+- Response caching (Redis-like)
+- Rate limiting and security
+
+**Frontend:**
+- React 18 with hooks
+- Tailwind CSS for styling
+- Voice input/output support
+- Dark mode
+- Multi-language support
+- Mobile responsive
+
+**Advanced Features:**
+- Recruiter detection and job matching
+- Sentiment analysis
+- Analytics dashboard
+- A/B testing framework
+- Feedback learning system
+- Email notifications
+- Conversation export
+
+**Performance Metrics:**
+- Response time: <2 seconds (95th percentile)
+- Accuracy: 90%+
+- Uptime: 99.8%
+- Cache hit rate: 50%
+
+**Skills Demonstrated:**
+- Full-stack AI development
+- Production deployment
+- System design
+- DevOps (Docker, CI/CD)
+- UI/UX design
+- Performance optimization
+
+## TECHNICAL SKILLS (COMPREHENSIVE)
+
+### Programming Languages
+**Expert Level:**
+- Python (4+ years): NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch
+- SQL (3+ years): PostgreSQL, MySQL, Complex queries, Optimization
+- R (2+ years): ggplot2, dplyr, Statistical modeling
+
+**Proficient Level:**
+- JavaScript/TypeScript: React, Node.js, D3.js
+- HTML/CSS: Responsive design, Bootstrap, Tailwind CSS
+- C++: Object-oriented programming, Data structures
+
+### Machine Learning & AI
+
+**Classical ML:**
+- Supervised Learning: Linear/Logistic Regression, Decision Trees, Random Forest, SVM, XGBoost, LightGBM, CatBoost
+- Unsupervised Learning: K-Means, DBSCAN, PCA, t-SNE
+- Ensemble Methods: Bagging, Boosting, Stacking
+- Model Evaluation: Cross-validation, Hyperparameter tuning, GridSearchCV
+
+**Deep Learning:**
+- Frameworks: TensorFlow, Keras, PyTorch
+- Neural Networks: CNN, RNN, LSTM, GRU, Transformers
+- Computer Vision: Image classification, Object detection, Segmentation
+- Transfer Learning: Fine-tuning pre-trained models
+
+**Natural Language Processing:**
+- Text Processing: Tokenization, Lemmatization, Stop-words
+- Word Embeddings: Word2Vec, GloVe, FastText
+- Transformers: BERT, GPT, T5, RoBERTa
+- NLP Tasks: Sentiment analysis, Named Entity Recognition, Text classification
+- Hugging Face Transformers library
+
+**Large Language Models:**
+- LangChain framework
+- LangGraph for agent orchestration
+- RAG (Retrieval-Augmented Generation) architecture
+- Prompt engineering
+- Fine-tuning LLMs
+- OpenAI APIs (GPT-3.5, GPT-4)
+- Ollama for local inference
+
+### Data Science & Analytics
+
+**Data Processing:**
+- Pandas: Advanced data manipulation, Groupby, Merge, Pivot
+- NumPy: Array operations, Linear algebra
+- ETL/ELT Pipelines: Data extraction, transformation, loading
+- Data Cleaning: Missing values, Outliers, Normalization
+- Feature Engineering: Creating, Selecting, Transforming features
+
+**Statistical Analysis:**
+- Hypothesis testing: t-tests, chi-square, ANOVA
+- A/B Testing: Experimental design, Statistical significance
+- Regression Analysis: Linear, Logistic, Polynomial
+- Time Series Analysis: ARIMA, Forecasting
+- Probability & Distributions: Normal, Binomial, Poisson
+
+**Data Visualization:**
+- Python: Matplotlib, Seaborn, Plotly
+- Business Intelligence: Power BI (DAX), Tableau
+- Web Visualization: D3.js, Plotly Dash
+- Excel: Advanced charts, Dashboards, Pivot tables
+
+### Vector Databases & Search
+- FAISS (Facebook AI Similarity Search)
+- ChromaDB
+- Pinecone
+- Hybrid Search (Semantic + Keyword)
+- BM25 retrieval
+- Embedding generation
+
+### Databases
+
+**SQL Databases:**
+- PostgreSQL (Advanced)
+- MySQL
+- SQL Server
+- Query optimization
+- Indexing strategies
+- Database design (Normalization, Star schema)
+
+**NoSQL Databases:**
+- MongoDB
+- Document-based storage
+- JSON data handling
+
+### Cloud Platforms & MLOps
+
+**Amazon Web Services (AWS):**
+- SageMaker: Model training and deployment
+- Lambda: Serverless functions
+- EC2: Virtual machines
+- S3: Object storage
+- RDS: Managed databases
+
+**Other Cloud Platforms:**
+- Microsoft Azure
+- Google Cloud Platform (GCP)
+
+**MLOps:**
+- Model versioning and tracking
+- CI/CD pipelines
+- Docker containerization
+- Kubernetes orchestration
+- Model monitoring and logging
+- A/B testing infrastructure
+
+### Web Development
+
+**Backend:**
+- FastAPI: Async APIs, Pydantic validation
+- Flask: REST APIs, Web applications
+- REST API design principles
+- Authentication & Authorization
+
+**Frontend:**
+- React: Hooks, Context API, State management
+- Tailwind CSS: Utility-first styling
+- Responsive design
+- Single Page Applications (SPA)
+
+**DevOps:**
+- Git & GitHub: Version control, Collaboration
+- Docker: Containerization, Docker Compose
+- CI/CD: GitHub Actions, Automated testing
+- Linux: Command line, Shell scripting
+
+### Soft Skills & Methodologies
+
+**Project Management:**
+- Agile/Scrum methodology
+- Sprint planning and execution
+- Jira and project tracking tools
+
+**Collaboration:**
+- Cross-functional team collaboration
+- Code reviews and pair programming
+- Technical documentation
+- Stakeholder communication
+
+**Problem Solving:**
+- Analytical thinking
+- Creative solutions
+- Debugging and troubleshooting
+- Algorithm design
+
+**Communication:**
+- Technical presentations
+- Data storytelling
+- Report writing
+- Explaining complex concepts simply
+
+## PROFESSIONAL EXPERIENCE
+
+### Web Developer Intern
+**Company:** Techionik
+**Location:** Lahore, Pakistan
+**Duration:** June 2023 - September 2023 (4 months)
+**Team Size:** 8 developers
+
+**Responsibilities:**
+- Developed responsive front-end components using HTML5, CSS3, Bootstrap 5, and JavaScript ES6
+- Created 5+ client websites from design mockups to deployment
+- Managed website data using Firebase Realtime Database and Firestore
+- Implemented user authentication and authorization systems
+- Collaborated in Agile team with daily standups and sprint planning
+- Conducted code reviews and contributed to team best practices
+
+**Technologies Used:**
+- Frontend: HTML, CSS, Bootstrap, JavaScript, jQuery
+- Backend: Firebase (Database, Authentication, Hosting)
+- Tools: Git, VS Code, Figma
+- Methodology: Agile/Scrum
+
+**Achievements:**
+- Successfully delivered all 5+ client projects on time
+- Improved website load times by 40% through optimization
+- Mentored 2 junior developers in HTML/CSS best practices
+- Received positive client feedback on all projects
+
+**Skills Gained:**
+- Professional web development
+- Client communication
+- Team collaboration
+- Agile methodology
+- Time management
+
+## INTERESTS & HOBBIES
+
+### Sports
+**Snooker:**
+- Regularly plays competitive snooker
+- Strategic thinking and precision
+- Focus and concentration skills
+
+**Cricket:**
+- Passionate cricket fan and player
+- Team sports and collaboration
+- Following international cricket
+
+### Technology
+- Staying updated with latest AI/ML trends
+- Contributing to open-source projects on GitHub
+- Reading research papers on arXiv
+- Participating in Kaggle competitions
+
+### Continuous Learning
+- Online courses and certifications
+- Technical blogs and documentation
+- Data science communities
+- Tech conferences and webinars
+
+## LANGUAGES
+
+**English:**
+- Level: Fluent (Professional working proficiency)
+- IELTS/TOEFL equivalent: Advanced
+- Academic and professional communication
+
+**Urdu:**
+- Level: Native/Bilingual proficiency
+- Mother tongue
+- Full professional fluency
+
+**Punjabi:**
+- Level: Native (Regional language of Punjab, Pakistan)
+- Conversational fluency
+
+## WORK AUTHORIZATION TIMELINE
+
+**Current (November 2024 - May 2026):**
+- Student Visa
+- Part-time work allowed (20 hours/week during term, full-time during holidays)
+
+**Future (May 2026 - May 2028):**
+- Graduate Visa (2 years)
+- Full-time work authorized
+- No sponsor required
+- Any role, any employer
+
+**Long-term:**
+- Eligible for Skilled Worker Visa after Graduate Visa
+- Pathway to UK settlement
+- Committed to UK career
+
+## SALARY & COMPENSATION EXPECTATIONS
+
+**Approach:** Flexible and market-driven
+
+**Factors Considered:**
+- Role seniority (Junior/Mid/Senior)
+- Company size and sector
+- Location (London vs other UK cities)
+- Benefits package
+- Growth opportunities
+- Learning and development
+
+**Typical Ranges:**
+- Data Analyst: £25,000 - £35,000
+- Junior Data Scientist: £30,000 - £45,000
+- Data Scientist: £40,000 - £60,000
+- ML Engineer: £45,000 - £70,000
+- Senior positions: £60,000+
+
+**Preferred:** Open to negotiation based on role requirements
+
+## LOCATION PREFERENCES
+
+**Current Location:** Middlesbrough, UK
+
+**Open to Relocation:**
+- London (Preferred for opportunities)
+- Manchester
+- Edinburgh
+- Birmingham
+- Leeds
+- Bristol
+- Anywhere in United Kingdom
+
+**Remote Work:** Fully equipped for remote work
+
+**Hybrid:** Preferred option for work-life balance
+
+**On-site:** Willing for right opportunity
+
+## UNIQUE SELLING POINTS
+
+**Why Hire Usama:**
+
+1. **Strong Academic Foundation:**
+   - MSc Data Science (Distinction expected)
+   - BSc Electrical Engineering from top-tier university
+   - Consistent high grades (94%+ in foundational education)
+
+2. **Proven Technical Expertise:**
+   - Multiple production-ready AI/ML projects
+   - Full-stack development capabilities
+   - 15+ technologies and frameworks mastered
+
+3. **Real-world Impact:**
+   - Delivered AI solutions for real organizations (FURBD charity)
+   - 99.80% accuracy in predictive maintenance
+   - 60% improvement in response times with RAG chatbot
+
+4. **Continuous Learning:**
+   - IBM Data Science Certificate (95%+ grades)
+   - NHS Advanced Challenges (Excel, R, Python)
+   - Self-taught advanced topics (LangChain, RAG, LLMs)
+
+5. **Problem-Solving Excellence:**
+   - Exceptional mathematical abilities
+   - IQ problem-solving expertise
+   - Creative and analytical thinking
+
+6. **Professional Attitude:**
+   - Team collaboration experience
+   - Agile methodology proficiency
+   - Strong communication skills
+   - Stakeholder management
+
+7. **UK Work Authorization:**
+   - No sponsorship needed until 2028
+   - Graduate Visa secured
+   - Long-term commitment to UK
+
+8. **Versatility:**
+   - Full-stack capabilities (Frontend + Backend + ML)
+   - Can work independently or in teams
+   - Quick learner and adaptable
+
+## CAREER GOALS
+
+**Short-term (1-2 years):**
+- Secure Data Scientist or ML Engineer role in UK
+- Contribute to production ML systems
+- Gain industry experience in AI/ML applications
+- Work on real-world data problems
+
+**Medium-term (3-5 years):**
+- Progress to Senior Data Scientist/ML Engineer
+- Lead ML projects and mentor junior team members
+- Specialize in NLP and LLM applications
+- Contribute to research and innovation
+
+**Long-term (5+ years):**
+- Principal/Lead AI/ML role
+- Architectural decisions and strategy
+- Publish research papers
+- Possibly start own AI/ML consultancy
+
+## REFERENCES
+
+Available upon request
+
+## PORTFOLIO LINKS
+
+**GitHub:** https://github.com/UsamaMasood12
+- 20+ public repositories
+- Well-documented code
+- Various ML/AI projects
+
+**Portfolio Website:** https://usamamasood12.github.io/Portfolio
+- Interactive project showcase
+- Skills visualization
+- Contact information
+
+**LinkedIn:** linkedin.com/in/masood-usama
+- Professional network
+- Recommendations
+- Activity and posts
+
+## ADDITIONAL INFORMATION
+
+**Driving License:** Available (if required)
+**COVID-19 Vaccination:** Fully vaccinated
+**Background Check:** Clean record, available on request
+**Notice Period:** 2-4 weeks (negotiable based on urgency)
+**Interview Availability:** Flexible, can arrange within 24-48 hours
+
+---
+
+*Last Updated: November 2024*
+*This comprehensive profile provides complete information for recruitment and hiring decisions.*
+*For any additional questions, please contact via email: usamamasood531@gmail.com*

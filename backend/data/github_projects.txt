@@ -1,0 +1,2418 @@
+================================================================================
+GITHUB PROJECTS - UsamaMasood12
+Generated: 2025-11-10 18:01:57
+================================================================================
+
+
+================================================================================
+PROJECT: Charity-Chatbot
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Charity-Chatbot
+Description: An intelligent conversational AI chatbot for charity organizations built with RAG (Retrieval-Augmented Generation), featuring real-time sentiment analysis and comprehensive analytics.
+Created: 2025-10-18
+Last Updated: 2025-11-09
+Stars: 0 | Forks: 0
+
+Technologies Used:
+  - Python: 100.0%
+
+Tags: ai, faiss-vector-database, ml, python, rag-chatbot
+
+Project Details:
+--------------------------------------------------------------------------------
+# 🤖 AI-Powered Charity Support Chatbot
+
+An intelligent conversational AI chatbot for charity organizations built with RAG (Retrieval-Augmented Generation), featuring real-time sentiment analysis and comprehensive analytics.
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.31.0-red.svg)
+![LangChain](https://img.shields.io/badge/LangChain-RAG-green.svg)
+
+---
+
+## ✨ Features
+
+- 💬 **Intelligent Q&A** - Context-aware responses using RAG with 50+ charity FAQs
+- 🔍 **Multi-Query Search** - Searches multiple ways for comprehensive answers
+- 😊 **Sentiment Analysis** - Detects emotions and adjusts response tone
+- ⚡ **Fast Response** - 2-3 second average response time
+- 📊 **Analytics Dashboard** - Track usage, sentiment, and performance
+- 💡 **Quick Suggestions** - One-click common questions
+- 💾 **Conversation Memory** - Remembers chat context
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Streamlit
+- **LLM:** Groq (llama-3.1-8b-instant)
+- **Vector Database:** FAISS
+- **Embeddings:** HuggingFace (all-MiniLM-L6-v2)
+- **Framework:** LangChain
+- **Sentiment Analysis:** TextBlob
+- **Visualization:** Plotly
+
+---
+
+## 📦 Installation & Setup
+
+### Prerequisites
+
+- Python 3.8 or higher
+- Groq API key ([Get free key here](https://console.groq.com))
+
+### Step 1: Clone Repository
+```bash
+git clone https://github.com/UsamaMasood12/charity-chatbot.git
+cd charity-chatbot
+```
+
+### Step 2: Create Virtual Environment
+
+**Windows:**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**macOS/Linux:**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Step 3: Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4: Download NLTK Data
+```bash
+python -c "import nltk; nltk.download('brown'); nltk.download('punkt')"
+```
+
+**⚠️ Important:** Never commit `.env` to Git!
+
+---
+
+## 🚀 Running the Application
+
+### Main Chatbot Interface
+```bash
+streamlit run app.py
+```
+
+Opens at: `http://localhost:8501`
+
+### Analytics D
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Portfolio
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Portfolio
+Description: No description provided
+Created: 2025-10-26
+Last Updated: 2025-11-01
+Stars: 0 | Forks: 0
+
+Technologies Used:
+  - JavaScript: 96.9%
+  - HTML: 3.1%
+
+Project Details:
+--------------------------------------------------------------------------------
+# 🚀 Usama Masood - Data Science & ML Portfolio
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://usamamasood12.github.io/Portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/masood-usama)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/UsamaMasood12)
+[![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:usamamasood531@gmail.com)
+
+<div align="center">
+  
+## 🌐 [**LIVE PORTFOLIO WEBSITE**](https://usamamasood12.github.io/Portfolio/)
+
+### ✨ Visit my interactive portfolio featuring animated UI, project demos, and more!
+
+[![Portfolio Preview](https://img.shields.io/badge/🚀_View_Live_Portfolio-Click_Here-FF6B6B?style=for-the-badge)](https://usamamasood12.github.io/Portfolio/)
+
+</div>
+
+---
+
+## 👨‍💻 About Me
+
+MSc Data Science graduate (Feb 2026, Distinction track) from Teesside University with a passion for transforming complex data into actionable insights. Specializing in machine learning, artificial intelligence, and business intelligence with proven expertise in developing predictive models achieving up to 99.80% accuracy.
+
+🎓 **Current:** MSc Data Science with Advanced Practice @ Teesside University  
+🔧 **Focus Areas:** Machine Learning, AI/NLP, Predictive Analytics, Business Intelligence  
+📍 **Location:** Middlesbrough, UK  
+📧 **Contact:** usamamasood531@gmail.com | +44 7724 030958
+
+## 🌟 Portfolio Highlights
+
+### Interactive Web Portfolio Features
+- 🎨 **Modern Animated Design** - Floating particle backgrounds with mouse-following gradient effects
+- 📱 **Fully Responsive** - Optimized for desktop, tablet, and mobile devices
+- ⚡ **React-Powered** - Built with React 18 and Tailwind CSS for blazing-fast performance
+- 🔄 **Dynamic Project Showcase** - Expandable project cards with detailed descriptions
+- 📊 **Skills Visualization** - Categorized technical skills with visual indicators
+- 📈 **Professional Timeline** - Interactive experience and education
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: UsamaMasood12
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/UsamaMasood12
+Description: No description provided
+Created: 2023-01-24
+Last Updated: 2025-10-31
+Stars: 1 | Forks: 0
+
+Project Details:
+--------------------------------------------------------------------------------
+<p align="center">
+  <a href="https://github.com/asadmasood10054">
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=DATA%20SCIENTIST&animation=fadeIn" alt="DATA SCIENTIST Header">
+  </a>
+</p>
+<h3 align="center"> I deliver AI-driven, web-integrated solutions to solve complex challenges and empower businesses with impactful insights.</h3>
+
+<img align="right" alt="Coding" width="400" src="vlc-record-2024-11-21-20h45m07s-videoplayback.webm-.gif">
+
+- **Languages**: Python, C, C++, R, HTML5, CSS, JavaScript
+- **Data Analysis Tools**: Pandas, NumPy, SciPy
+- **Data Visualization**: Matplotlib, Seaborn, Plotly, Tableau, Power BI
+- **Machine Learning**: Scikit-Learn, TensorFlow, Keras, PyTorch
+- **Statistical Analysis**: Regression, Hypothesis Testing, Time Series Analysis
+- **Database Management**: SQL, NoSQL, MongoDB, PostgreSQL
+- **Big Data Technologies**: Hadoop, Spark
+- **Data Cleaning and Preparation**: Data Wrangling, Data Transformation, Feature Engineering
+- **Data Mining and Warehousing**: ETL Processes, Data Warehousing
+- **Version Control**: Git, GitHub
+
+
+⚡ **Fun fact** Stay humble because the second you stop being a student, your knowledge becomes fragile
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://codepen.io/usama_masood" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="UsamaMasood12" height="30" width="40" /></a>
+<a href="https://twitter.com/Usama____Masood" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="usama masood" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/usama-masood-b4a35014b/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Socia
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: certificates
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/certificates
+Description: No description provided
+Created: 2025-10-30
+Last Updated: 2025-10-30
+Stars: 0 | Forks: 0
+
+
+
+================================================================================
+PROJECT: Power-BI-analysis-Project
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Power-BI-analysis-Project
+Description: A comprehensive Power BI dashboard for jewelry retail analytics featuring sales performance, inventory management, and customer insights
+Created: 2025-06-12
+Last Updated: 2025-10-30
+Stars: 0 | Forks: 0
+
+Tags: data-modeling, m-language, power-bi, power-query, starschema
+
+Project Details:
+--------------------------------------------------------------------------------
+# Power BI Jewelry Store Analytics Dashboard
+
+[![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-yellow)](https://powerbi.microsoft.com/)
+[![DAX](https://img.shields.io/badge/DAX-Formulas-orange)](https://docs.microsoft.com/en-us/dax/)
+[![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-blue)](https://powerbi.microsoft.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+> **MSc Data Science Project** | Teesside University  
+> A comprehensive Power BI dashboard for jewelry retail analytics featuring sales performance, inventory management, and customer insights
+
+## 🎯 Project Overview
+
+This project delivers an **interactive business intelligence solution** for a jewelry retail store using Microsoft Power BI. The dashboard provides real-time insights into sales performance, inventory management, customer behavior, and profitability metrics to support data-driven decision-making.
+
+### Key Features
+- 📊 **Interactive Dashboard** with drill-down capabilities
+- 💰 **Sales Performance Analytics** across multiple dimensions
+- 📦 **Inventory Management** tracking and optimization
+- 👥 **Customer Segmentation** and behavior analysis
+- 📈 **Trend Analysis** with time intelligence
+- 🎯 **KPI Tracking** with visual indicators
+- 🔄 **Real-time Updates** with data refresh capabilities
+
+---
+
+## 📊 Dashboard Components
+
+### 1. Executive Summary Dashboard
+**Purpose:** High-level overview for management decision-making
+
+**Key Metrics:**
+- **Total Revenue:** Overall sales performance
+- **Total Profit:** Net profitability
+- **Profit Margin %:** Profitability ratio
+- **Total Orders:** Transaction volume
+- **Average Order Value (AOV):** Revenue per transaction
+- **Customer Count:** Unique customers
+
+**Visualizations:**
+- KPI cards with trend indicators
+- Revenue and profit trends (line charts)
+- Monthly/quarterly performance comparisons
+- Year-over-year growth metrics
+
+### 2. Sales Analytics
+**Purpose:** Detailed sales performance ana
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Enterprise-AI-Knowledge-Assistant
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Enterprise-AI-Knowledge-Assistant
+Description: Enterprise AI Knowledge Assistant - Production-ready RAG system with multi-LLM integration, advanced NLP, REST API, and interactive dashboard
+Created: 2025-10-30
+Last Updated: 2025-10-30
+Stars: 0 | Forks: 0
+
+Technologies Used:
+  - Python: 99.6%
+  - Dockerfile: 0.4%
+
+Tags: artificial-intelligence, enterprise, fastapi, knowledge-base, langchain, machine-learning, nlp, openai, rag, streamlit
+
+Project Details:
+--------------------------------------------------------------------------------
+# 🤖 Enterprise AI Knowledge Assistant
+
+<div align="center">
+
+![Enterprise AI Banner](https://dummyimage.com/1200x300/1a1a2e/ffffff&text=Enterprise+AI+Knowledge+Assistant)
+
+### Multi-Modal RAG-Powered Enterprise Knowledge Assistant
+**Advanced NLP • Multi-LLM Integration • Production Ready**
+
+---
+
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.29.0-FF4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-412991.svg?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![GitHub Stars](https://img.shields.io/github/stars/UsamaMasood12/Enterprise-AI-Knowledge-Assistant?style=for-the-badge&logo=github)](https://github.com/UsamaMasood12/Enterprise-AI-Knowledge-Assistant/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/UsamaMasood12/Enterprise-AI-Knowledge-Assistant?style=for-the-badge&logo=github)](https://github.com/UsamaMasood12/Enterprise-AI-Knowledge-Assistant/network)
+[![GitHub Issues](https://img.shields.io/github/issues/UsamaMasood12/Enterprise-AI-Knowledge-Assistant?style=for-the-badge&logo=github)](https://github.com/UsamaMasood12/Enterprise-AI-Knowledge-Assistant/issues)
+
+[![RAG](https://img.shields.io/badge/RAG-Retrieval%20Augmented%20Generation-brightgreen?style=for-the-badge)](https://github.com/UsamaMasood12/Enterprise-AI-Knowledge-Assistant)
+[![NLP](https://img.shields.io/badge/NLP-Natural%20Language%20Processing-orange?style=for-the-badge)](https://github.com/UsamaMasood12/Enterprise-AI-Knowledge-Assistant)
+[![AW
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Portfolio.1
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Portfolio.1
+Description: No description provided
+Created: 2022-12-02
+Last Updated: 2025-10-26
+Stars: 1 | Forks: 1
+
+Technologies Used:
+  - HTML: 51.4%
+  - CSS: 46.3%
+  - JavaScript: 2.2%
+
+Project Details:
+--------------------------------------------------------------------------------
+<a name="readme-top"></a>
+
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
+
+
+
+# 📖 Portfolio setup <a name="about-project"></a>
+
+
+**Portfolio setup** includes the use the of Linters, Git, GitHub, Figma and Visual Studio Code. In this project i build the complete portfolio. This portfolio is according to the mobile first approach and i completed the desktop version of portfolio after completing the mobile version.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+
+<details>
+  <summary>Git</summary>
+  <ul>
+    <li><a href="https://git-scm.com/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>GitHub</summary>
+  <ul>
+    <li><a href="https://github.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Figma</summary>
+  <ul>
+    <li><a href="https://www.figma.com/</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Visual Studio Code</summary>
+  <ul>
+    <li><a href="https://visualstudio.microsoft.com/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+
+### Key Features <a name="key-features"></a>
+
+
+- **Use of Linters**
+- **Correct GitHub flow**
+- **Documented Work**
+- **Use of Flexbox in css**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](index.html)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites <a name="prerequisite
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Interactive-Visualization-of-Plastic-Pollution-across-the-globe
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Interactive-Visualization-of-Plastic-Pollution-across-the-globe
+Description: No description provided
+Created: 2024-10-29
+Last Updated: 2025-10-23
+Stars: 0 | Forks: 0
+
+Technologies Used:
+  - HTML: 100.0%
+
+Project Details:
+--------------------------------------------------------------------------------
+# Interactive Visualization of Plastic Pollution Across the Globe
+
+[![D3.js](https://img.shields.io/badge/D3.js-v7-orange)](https://d3js.org/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-4.5.2-purple)](https://getbootstrap.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://www.javascript.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+> **MSc Data Science Project** | Teesside University  
+> A collaborative team project featuring four interactive D3.js visualizations showcasing global plastic pollution data from 1950-2019
+
+## 🎯 Project Overview
+
+This project presents a comprehensive **interactive web-based visualization** of global plastic pollution using **D3.js**. The project consists of four distinct, interactive charts that tell the story of plastic waste across different dimensions: temporal trends, geographic distribution, waste management methods, and per-capita emissions.
+
+### Live Demo
+🌐 **[View Live Project](https://usamamasood12.github.io/Interactive-Visualization-of-Plastic-Pollution-across-the-globe/)**
+
+---
+
+## 👥 Team Members & Contributions
+
+| Team Member | Visualization | Description |
+|-------------|---------------|-------------|
+| **Karan Gunti** | Line Chart | Global plastic waste production (1950-2019) |
+| **Usama Masood** | Choropleth Map | Share of plastic waste emitted to ocean by country (2019) |
+| **Kiranmai Kodali** | Stacked Bar Chart | Annual waste management methods (2000-2019) |
+| **Rishika Buram** | Bubble Chart | Mismanaged plastic waste per capita by country |
+
+---
+
+## 📊 Visualizations Overview
+
+### 1. Line Chart - Global Plastic Waste Trend (Karan Gunti)
+**File:** `student1.html`
+
+**Description:**  
+An interactive line chart displaying the progression of global plastic waste production from 1950 to 2019 in million tons.
+
+**Key Featu
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Digdata-NHS-Excell-R-and-Python-challenge
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Digdata-NHS-Excell-R-and-Python-challenge
+Description: No description provided
+Created: 2025-06-12
+Last Updated: 2025-10-23
+Stars: 0 | Forks: 0
+
+Technologies Used:
+  - HTML: 53.2%
+  - Jupyter Notebook: 46.8%
+
+Project Details:
+--------------------------------------------------------------------------------
+# NHS Digital Data Analysis Challenge
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![R](https://img.shields.io/badge/R-4.0%2B-blue)](https://www.r-project.org/)
+[![Excel](https://img.shields.io/badge/Excel-2016%2B-green)](https://www.microsoft.com/excel)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+> **MSc Data Science Project** | Teesside University  
+> A comprehensive multi-tool analysis demonstrating data analysis proficiency across Excel, Python, and R
+
+## 🎯 Project Overview
+
+This project showcases a **tri-platform data analysis** of NHS (National Health Service) healthcare data, demonstrating technical versatility and analytical skills across three industry-standard tools:
+
+- 📊 **Microsoft Excel** - Business intelligence and visualization
+- 🐍 **Python** - Statistical analysis and data manipulation
+- 📈 **R** - Advanced statistical computing and graphics
+
+### Why Three Tools?
+
+Different analytical tools serve different purposes in the data science workflow:
+- **Excel:** Quick exploratory analysis, business stakeholder communication
+- **Python:** Data engineering, machine learning, production deployment
+- **R:** Statistical rigor, academic research, specialized visualizations
+
+This project demonstrates the ability to choose and use the right tool for the task at hand - a critical skill for data scientists working in healthcare analytics.
+
+---
+
+## 📋 Project Components
+
+### 1. Excel Analysis (`NHS_Excell.pdf`)
+**Focus:** Business Intelligence & Dashboard Creation
+
+**Key Features:**
+- Pivot tables for data aggregation
+- Interactive dashboards
+- Conditional formatting for insights
+- Chart visualizations
+- Formula-based calculations
+- Data validation and cleaning
+
+**Deliverables:**
+- Executive summary dashboard
+- Trend analysis charts
+- KPI tracking spreadsheets
+- Data quality reports
+
+### 2. Python Analysis (`NHS_Python.pdf`)
+**Focus:** Statistical Analysis & Data Engineering
+
+**Key Features:**
+-
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: used-car-price-prediction
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/used-car-price-prediction
+Description: No description provided
+Created: 2024-09-17
+Last Updated: 2025-10-23
+Stars: 0 | Forks: 0
+
+Technologies Used:
+  - Jupyter Notebook: 100.0%
+
+Project Details:
+--------------------------------------------------------------------------------
+# Used Car Price Prediction Using Machine Learning
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Latest-orange)](https://scikit-learn.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+> **MSc Data Science Assignment** | Teesside University  
+> A comprehensive machine learning solution for predicting used car prices using ensemble methods and regression algorithms
+
+## 🎯 Project Overview
+
+This project implements and compares multiple machine learning regression models to accurately predict used car prices. The **Random Forest Regressor** achieved the best performance with an **R² of 0.8747**, demonstrating the effectiveness of ensemble methods for price prediction tasks.
+
+### Key Achievements
+- ✅ **87.47% R² Score** with Random Forest Regressor
+- ✅ **RMSE: 0.9092** and **MAE: 0.6456** on test data
+- ✅ Comprehensive comparison of **5 regression algorithms**
+- ✅ Extensive **EDA** with feature engineering
+- ✅ **GridSearchCV** hyperparameter optimization
+- ✅ **Cross-validation** for robust model evaluation
+
+---
+
+## 📊 Problem Statement
+
+The used car market has grown significantly due to:
+- Need for affordable transportation
+- Environmental concerns
+- Economic shifts
+
+**Challenge:** Accurately predicting used car prices is complex due to multiple factors including age, mileage, make, model, condition, and market demand.
+
+**Solution:** Leverage machine learning algorithms to analyze these factors and provide reliable price predictions for buyers, sellers, and dealers.
+
+---
+
+## 🔬 Dataset Description
+
+**Source:** CSV dataset (`train-data.csv`)
+
+### Features
+| Feature | Description | Type |
+|---------|-------------|------|
+| **Name** | Car manufacturer and model | Categorical |
+| **Location** | City where car is listed | Categorical |
+| **Year** | Manufacturing
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Predictive-Maintenance-Using-ML
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Predictive-Maintenance-Using-ML
+Description: No description provided
+Created: 2025-06-12
+Last Updated: 2025-10-23
+Stars: 0 | Forks: 0
+
+Technologies Used:
+  - Jupyter Notebook: 50.2%
+  - HTML: 49.8%
+
+Project Details:
+--------------------------------------------------------------------------------
+# Predictive Maintenance in Industrial Settings
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Latest-orange)](https://scikit-learn.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+> **MSc Data Science Advanced Practice Project** | Teesside University  
+> A comprehensive machine learning solution for predicting equipment failures in manufacturing environments
+
+## 🎯 Project Overview
+
+This project implements multiple machine learning algorithms to predict machine failures in industrial settings, achieving up to **99.80% accuracy**. The system identifies five distinct failure types and provides explainable predictions using LIME (Local Interpretable Model-agnostic Explanations).
+
+### Key Achievements
+- ✅ **99.80% Test Accuracy** with Support Vector Machines
+- ✅ **Multi-class Classification** of 5 failure types
+- ✅ **Advanced Data Balancing** using SMOTE technique
+- ✅ **Comprehensive EDA** with detailed visualizations
+- ✅ **Model Interpretability** using LIME explainability
+
+---
+
+## 📊 Dataset Description
+
+**Source:** [Kaggle - Machine Predictive Maintenance Classification Dataset](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
+
+The dataset contains **10,000 observations** with 14 features representing synthetic industrial sensor data:
+
+### Features
+| Feature | Description | Type |
+|---------|-------------|------|
+| **Type** | Product quality (L/M/H: 60%/30%/10%) | Categorical |
+| **Air Temperature** | Ambient temperature (K) | Continuous |
+| **Process Temperature** | Operating temperature (K) | Continuous |
+| **Rotational Speed** | RPM from 2860W power | Continuous |
+| **Torque** | Torque in Nm | Continuous |
+| **Tool Wear** | Tool usage time (minutes) | Continuous |
+| **Target** | Machine failure indicator (0/1) | Binary |
+| **Failure Type** | Specific failure mode | Categorical |
+
+### Failure Types
+
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Portfolio-New
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Portfolio-New
+Description: Portfolio setup includes the use the of Linters, Git, GitHub, Figma and Visual Studio Code. In this project i build the complete portfolio. This portfolio is according to the mobile first approach and i completed the desktop version of portfolio after completing the mobile version.
+Created: 2022-12-20
+Last Updated: 2025-09-02
+Stars: 5 | Forks: 0
+
+Technologies Used:
+  - CSS: 44.9%
+  - HTML: 30.3%
+  - JavaScript: 24.8%
+
+Tags: css, html
+
+Project Details:
+--------------------------------------------------------------------------------
+<a name="readme-top"></a>
+
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
+
+
+
+# 📖 Portfolio setup <a name="about-project"></a>
+
+
+**Portfolio setup** includes the use the of Linters, Git, GitHub, Figma and Visual Studio Code. In this project i build the complete portfolio. This portfolio is according to the mobile first approach and i completed the desktop version of portfolio after completing the mobile version.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+
+<details>
+  <summary>Git</summary>
+  <ul>
+    <li><a href="https://git-scm.com/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>GitHub</summary>
+  <ul>
+    <li><a href="https://github.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Figma</summary>
+  <ul>
+    <li><a href="https://www.figma.com/</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Visual Studio Code</summary>
+  <ul>
+    <li><a href="https://visualstudio.microsoft.com/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+
+### Key Features <a name="key-features"></a>
+
+
+- **Use of Linters**
+- **Correct GitHub flow**
+- **Documented Work**
+- **Use of Flexbox in css**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](index.html)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites <a name="prerequisite
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Coursera_IBM_Data_Science_Professional_Certificate
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Coursera_IBM_Data_Science_Professional_Certificate
+Description: No description provided
+Created: 2023-09-15
+Last Updated: 2023-09-22
+Stars: 0 | Forks: 0
+
+Technologies Used:
+  - Jupyter Notebook: 99.9%
+  - Python: 0.1%
+
+Project Details:
+--------------------------------------------------------------------------------
+# IntroToJupyterNotebook
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Capstone-project-2
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Capstone-project-2
+Description: No description provided
+Created: 2023-02-13
+Last Updated: 2023-02-15
+Stars: 0 | Forks: 0
+
+Technologies Used:
+  - JavaScript: 69.7%
+  - CSS: 24.6%
+  - HTML: 5.6%
+
+Project Details:
+--------------------------------------------------------------------------------
+<a name="readme-top"></a>
+
+<div align="center">
+  <br/>
+
+  <h3><b>Peaky Blinders fanpage</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Peaky Blinders Fanpage <a name="about-project"></a>
+
+**Peaky Blinders Fanpage** is a fan page for the very popular Peaky Blinders series. The project is the second Capestone project in the Microverse curriculum. The project uses Webpack for bundling, TVMaze API for episode details and Involvement API for comments and likes for each episode.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+  <ul>
+    <li>HTML/CSS</li>
+    <li>Javascript</li>
+    <li>Webpack</li>
+    <li>Jest</li>
+  </ul>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Home Page and Popup windows**
+- **Responsive webpage**
+- **Page design allows adding more seasons**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://UsamaMasood12.github.io/Capstone-project-2/dist/)
+
+A video presentation of the project can be found in this [Video Link](hhttps://drive.google.com/file/d/1txKw-6cq9hISoQBrMLzPLqhB3YB-c8sn/view?usp=share_link)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-sta
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Leaderboard
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Leaderboard
+Description: No description provided
+Created: 2023-01-30
+Last Updated: 2023-02-09
+Stars: 1 | Forks: 0
+
+Technologies Used:
+  - CSS: 60.4%
+  - JavaScript: 39.6%
+
+Project Details:
+--------------------------------------------------------------------------------
+# Leaderboard
+
+## Description
+
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+
+- This is the page view:
+
+> |     | Mobile version                          | Desktop version                          |     |
+> | --- | --------------------------------------- | ---------------------------------------- | --- |
+> |     | ![Screenshot1](./src/images/Mobile.png) | ![Screenshot2](./src/images/Desktop.png) |
+
+## Built With
+
+- HTML
+- SCSS
+- JavaScript
+
+## Get Started
+
+To get a local copy up and running follow these simple example steps.
+
+1. Clone the Repo or Download the Zip file or `git@github.com:UsamaMasood12/Leaderboard.git`.
+2. `cd /leaderboard`
+3. Open it with the live server
+
+## Test
+
+For tracking linter errors locally you need to follow these steps:
+
+After cloning the project you need to run these commands
+
+`npm install` `This command will download all the dependancies of the project`
+
+For tracking linter errors in HTML files run:
+
+`npx hint .`
+
+For tracking linter errors in CSS or SASS files run:
+
+`npx stylelint "**/*.{css,scss}`
+
+And For tracking linter errors in JavaScript files run:
+
+`npx eslint .`
+
+## Live Demo
+
+See the live by clicking [Live Demo Link](https://usamamasood12.github.io/Leaderboard/dist/)
+
+## Author
+
+👤 **Cynthia Inga**
+
+- GitHub: [@UsamaMasood12](https://github.com/UsamaMasood12)
+- Twitter: [@Usama__Masood](https://twitter.com/Usama__Masood)
+- LinkedIn: [usama-masood](https://www.linkedin.com/in/usama-masood-b4a35014b/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Future Features
+
+- Attach a proper game with this leaderboard.
+- Will store the score of the player from that game.
+- Will try to make more attractive. 
+
+## Acknowledgments
+
+- Thanks to everyone who will get
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Gitflow
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Gitflow
+Description: No description provided
+Created: 2023-01-30
+Last Updated: 2023-02-09
+Stars: 1 | Forks: 0
+
+Project Details:
+--------------------------------------------------------------------------------
+# Gitflow
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Partner-coding-review
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Partner-coding-review
+Description: No description provided
+Created: 2023-01-23
+Last Updated: 2023-02-09
+Stars: 0 | Forks: 0
+
+Technologies Used:
+  - JavaScript: 65.1%
+  - CSS: 22.9%
+  - HTML: 12.0%
+
+Project Details:
+--------------------------------------------------------------------------------
+<a name="readme-top"></a>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 To-do-list <a name="about-project"></a>
+
+
+**To-do-list** is a project in which, I will build a simple HTML list of To Do tasks which will be built using webpack and served by a webpack dev server.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Javascript</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+
+- **You can view your daily tasks.**
+- **You can add your daily task.**
+- **You can mark your tasks as completed.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo](https://usamamasood12.github.io/To-do-list/dist/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+Visual Studio Code Edi
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Testing-practice
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Testing-practice
+Description: No description provided
+Created: 2023-01-24
+Last Updated: 2023-02-09
+Stars: 1 | Forks: 0
+
+Technologies Used:
+  - JavaScript: 100.0%
+
+
+
+================================================================================
+PROJECT: experimental-git
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/experimental-git
+Description: No description provided
+Created: 2023-01-30
+Last Updated: 2023-02-09
+Stars: 0 | Forks: 0
+
+Project Details:
+--------------------------------------------------------------------------------
+<a name="readme-top"></a>
+
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [your_project_name] <a name="about-project"></a>
+
+> Describe your project in 1 or 2 sentences.
+
+**[your_project__name]** is a...
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Setup-project-webpack
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Setup-project-webpack
+Description: No description provided
+Created: 2023-01-16
+Last Updated: 2023-02-09
+Stars: 1 | Forks: 0
+
+Technologies Used:
+  - JavaScript: 80.2%
+  - HTML: 19.8%
+
+Project Details:
+--------------------------------------------------------------------------------
+<a name="readme-top"></a>
+
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [your_project_name] <a name="about-project"></a>
+
+> Describe your project in 1 or 2 sentences.
+
+**[your_project__name]** is a...
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: To-do-list
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/To-do-list
+Description: To-do-list is a project in which, I will build a simple HTML list of To Do tasks which will be built using webpack and served by a webpack dev server.
+Created: 2023-01-18
+Last Updated: 2023-02-09
+Stars: 4 | Forks: 0
+
+Technologies Used:
+  - JavaScript: 65.0%
+  - CSS: 23.0%
+  - HTML: 12.0%
+
+Tags: css, html, javascript, webpack
+
+Project Details:
+--------------------------------------------------------------------------------
+<a name="readme-top"></a>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 To-do-list <a name="about-project"></a>
+
+
+**To-do-list** is a project in which, I will build a simple HTML list of To Do tasks which will be built using webpack and served by a webpack dev server.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Javascript</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+
+- **You can view your daily tasks.**
+- **You can add your daily task.**
+- **You can mark your tasks as completed.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo](https://usamamasood12.github.io/To-do-list/dist/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+Visual Studio Code Edi
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Portfolio-old
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Portfolio-old
+Description: No description provided
+Created: 2022-12-12
+Last Updated: 2023-02-09
+Stars: 1 | Forks: 0
+
+Technologies Used:
+  - HTML: 43.9%
+  - CSS: 37.6%
+  - JavaScript: 18.5%
+
+Project Details:
+--------------------------------------------------------------------------------
+<a name="readme-top"></a>
+
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
+
+
+
+# 📖 Portfolio setup <a name="about-project"></a>
+
+
+**Portfolio setup** includes the use the of Linters, Git, GitHub, Figma and Visual Studio Code. In this project i build the complete portfolio. This portfolio is according to the mobile first approach and i completed the desktop version of portfolio after completing the mobile version.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+
+<details>
+  <summary>Git</summary>
+  <ul>
+    <li><a href="https://git-scm.com/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>GitHub</summary>
+  <ul>
+    <li><a href="https://github.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Figma</summary>
+  <ul>
+    <li><a href="https://www.figma.com/</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Visual Studio Code</summary>
+  <ul>
+    <li><a href="https://visualstudio.microsoft.com/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+
+### Key Features <a name="key-features"></a>
+
+
+- **Use of Linters**
+- **Correct GitHub flow**
+- **Documented Work**
+- **Use of Flexbox in css**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://usamamasood12.github.io/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these s
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Awesome-books-plain-JavaScript-with-objects
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Awesome-books-plain-JavaScript-with-objects
+Description: No description provided
+Created: 2023-01-09
+Last Updated: 2023-02-09
+Stars: 1 | Forks: 0
+
+Technologies Used:
+  - JavaScript: 97.7%
+  - CSS: 1.4%
+  - HTML: 0.9%
+
+Project Details:
+--------------------------------------------------------------------------------
+<a name="readme-top"></a>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Awesome Book Project <a name="about-project"></a>
+
+> Describe of project.
+
+**Awesome Book Project** is a project that enables users to add and remove book from the page.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Description of the tech stacks used
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://html.com/">Html</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Features of the application.
+
+- **Add book**
+- **Remove book and author**
+- **localStorage**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Link to deployed project.
+
+- [Live Demo Link](#)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+1. npm 
+use the following link to setup npm if you dont have it already installed on your computer 
+<p align="left">(<a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">install npm</a>)</p>
+
+### Setup
+
+Clone this repository to your desired folder using the above command:
+
+```sh
+  cd my-folder
+  git clone https://github.com/UsamaMaso
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: UsamaMasood12.github.io
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/UsamaMasood12.github.io
+Description: MICROVERSE CAPSTONE PROJECT # 1 is all about creating a web site consists of two pages. This project covers the use of Git, GitHub, Visual Studio Code with the detailed concepts of HTML, CSS, and Javascript following the use of respective Linters as well.
+Created: 2022-12-26
+Last Updated: 2023-02-09
+Stars: 2 | Forks: 0
+
+Technologies Used:
+  - HTML: 39.9%
+  - CSS: 39.5%
+  - JavaScript: 20.5%
+
+Tags: css, html, javascript
+
+Project Details:
+--------------------------------------------------------------------------------
+<a name="readme-top"></a>
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+
+
+# 📖 MICROVERSE CAPSTONE PROJECT # 1 <a name="about-project"></a>
+
+**MICROVERSE CAPSTONE PROJECT # 1** is all about creating a web site consists of two pages. This project covers the use of Git, GitHub, Visual Studio Code with the detailed concepts of HTML, CSS, and Javascript following the use of respective Linters as well.
+
+
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Git</summary>
+  <ul>
+    <li><a href="https://git-scm.com/">Git Bash</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>GitHub</summary>
+  <ul>
+    <li><a href="https://github.com/">GitHub</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Visual Studio Code</summary>
+  <ul>
+    <li><a href="https://visualstudio.microsoft.com/">VSCode</a></li>
+  </ul>
+</details>
+
+
+<!-- Features -->
+
+
+### Key Features <a name="key-features"></a>
+
+- **Use semantic HTML tags.**
+- **Apply best practices in HTML code.**
+- **Use CSS selectors correctly.**
+- **Use CSS box model.**
+- **Use Flexbox to place elements in the page.**
+- **Demonstrate ability to create UIs adaptable to different screen sizes using media queries.**
+- **Use GitHub Pages to deploy web pages.**
+- **Apply JavaScript be
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Awsome-Books-ES6
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Awsome-Books-ES6
+Description: No description provided
+Created: 2023-01-16
+Last Updated: 2023-02-09
+Stars: 1 | Forks: 0
+
+Technologies Used:
+  - JavaScript: 97.7%
+  - CSS: 1.4%
+  - HTML: 0.9%
+
+Project Details:
+--------------------------------------------------------------------------------
+<a name="readme-top"></a>
+
+<div align="center">
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Awesome Book Project <a name="about-project"></a>
+
+> Describe of project.
+
+**Awesome Book Project** is a project that enables users to add and remove book from the page.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Description of the tech stacks used
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://html.com/">Html</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Features of the application.
+
+- **Add book**
+- **Remove book and author**
+- **localStorage**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Link to deployed project.
+
+- [Live Demo Link](#)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+1. npm 
+use the following link to setup npm if you dont have it already installed on your computer 
+<p align="left">(<a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">install npm
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Review-one-of-your-past-projects
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Review-one-of-your-past-projects
+Description: No description provided
+Created: 2022-12-05
+Last Updated: 2023-02-09
+Stars: 0 | Forks: 0
+
+Technologies Used:
+  - HTML: 99.4%
+  - CSS: 0.6%
+
+Project Details:
+--------------------------------------------------------------------------------
+<a name="readme-top"></a>
+
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [your_project_name] <a name="about-project"></a>
+
+> Describe your project in 1 or 2 sentences.
+
+**[your_project__name]** is a...
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Bootstrap
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Bootstrap
+Description: No description provided
+Created: 2022-12-14
+Last Updated: 2023-02-09
+Stars: 1 | Forks: 0
+
+Project Details:
+--------------------------------------------------------------------------------
+<a name="readme-top"></a>
+
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
+
+
+
+# 📖 Portfolio setup <a name="about-project"></a>
+
+
+**Portfolio setup** includes the use the of Linters, Git, GitHub, Figma and Visual Studio Code. In this project i build the complete portfolio. This portfolio is according to the mobile first approach and i completed the desktop version of portfolio after completing the mobile version.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+
+<details>
+  <summary>Git</summary>
+  <ul>
+    <li><a href="https://git-scm.com/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>GitHub</summary>
+  <ul>
+    <li><a href="https://github.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Figma</summary>
+  <ul>
+    <li><a href="https://www.figma.com/</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Visual Studio Code</summary>
+  <ul>
+    <li><a href="https://visualstudio.microsoft.com/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+
+### Key Features <a name="key-features"></a>
+
+
+- **Use of Linters**
+- **Correct GitHub flow**
+- **Documented Work**
+- **Use of Flexbox in css**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://usamamasood12.github.io/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these s
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Hello-Microverse
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Hello-Microverse
+Description: No description provided
+Created: 2022-11-29
+Last Updated: 2023-02-09
+Stars: 0 | Forks: 1
+
+Technologies Used:
+  - HTML: 93.6%
+  - CSS: 6.4%
+
+Project Details:
+--------------------------------------------------------------------------------
+<a name="readme-top"></a>
+
+
+
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [👥 Authors](#authors)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
+
+
+
+# 📖 Introduction to Coding <a name="about-project"></a>
+
+
+**Introduction to Coding** includes the use the of Linters, Git, GitHub and Visual Studio Code. This project is about the basic use and understanding of the these subjects.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+
+<details>
+  <summary>Git</summary>
+  <ul>
+    <li><a href="https://git-scm.com/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>GitHub</summary>
+  <ul>
+    <li><a href="https://github.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Visual Studio Code</summary>
+  <ul>
+    <li><a href="https://visualstudio.microsoft.com/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+
+### Key Features <a name="key-features"></a>
+
+
+- **Use of Linters**
+- **Correct GitHub flow**
+- **Documented Work**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Usama Masood**
+
+- GitHub: [@UsamaMasood12](https://github.com/UsamaMasood12)
+- Twitter: [@Usama___Masood](https://twitter.com/Usama____Masood)
+- LinkedIn: [Usama Masood](www.linkedin.com/in/usama-masood-b4a35014b)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project you can give me stars it will encourge me. And you can also suggest me if you have any suggestions.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT li
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Portfolio-setup-and-mobile_first
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Portfolio-setup-and-mobile_first
+Description: No description provided
+Created: 2022-11-30
+Last Updated: 2023-02-09
+Stars: 1 | Forks: 0
+
+Technologies Used:
+  - HTML: 63.6%
+  - CSS: 36.4%
+
+Project Details:
+--------------------------------------------------------------------------------
+<a name="readme-top"></a>
+
+
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [🔭 Future Features](#future-features)  
+- [👥 Authors](#authors)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
+
+
+
+# 📖 Portfolio setup <a name="about-project"></a>
+
+
+**Portfolio setup** includes my personal porfolio homepage in which header and headline both are included. I desiged this project following the mobile-first approach. It shows a little introduction about me.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+
+<details>
+  <summary>Visual Studio Code</summary>
+  <ul>
+    <li><a href="https://visualstudio.microsoft.com/"</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>GitHub</summary>
+  <ul>
+    <li><a href="https://github.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Figma</summary>
+  <ul>
+    <li><a href="https://www.figma.com/</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Visual Studio Code</summary>
+  <ul>
+    <li><a href="https://visualstudio.microsoft.com/"</a></li>
+  </ul>
+</details>
+
+
+### Key Features <a name="key-features"></a>
+
+
+- **Use of figma templete**
+- **Use of flexbox**
+- **Creation of porfolio Homepage**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Usama Masood**
+
+- GitHub: [@UsamaMasood12](https://github.com/UsamaMasood12)
+- Twitter: [@Usama___Masood](https://twitter.com/Usama____Masood)
+- LinkedIn: [Usama Masood](www.linkedin.com/in/usama-masood-b4a35014b)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **I will includes my projects on my portfolio.**
+- [ ] **I wi
+... (truncated)
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+PROJECT: Portfolio-setup-and-mobile-first
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Portfolio-setup-and-mobile-first
+Description: No description provided
+Created: 2022-11-30
+Last Updated: 2023-02-09
+Stars: 0 | Forks: 0
+
+
+
+================================================================================
+PROJECT: Hello_Microverse
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Hello_Microverse
+Description: No description provided
+Created: 2022-11-29
+Last Updated: 2023-02-09
+Stars: 0 | Forks: 0
+
+
+
+================================================================================
+PROJECT: Intro
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Intro
+Description: No description provided
+Created: 2022-11-29
+Last Updated: 2023-02-09
+Stars: 0 | Forks: 0
+
+
+
+================================================================================
+PROJECT: Usama-Humaon-Technical-Documentation-Page
+================================================================================
+
+Repository: https://github.com/UsamaMasood12/Usama-Humaon-Technical-Documentation-Page
+Description: No description provided
+Created: 2022-10-15
+Last Updated: 2023-02-09
+Stars: 0 | Forks: 0
+
+

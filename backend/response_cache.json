@@ -1,0 +1,945 @@
+{
+  "4362f2d06b7c02330ebbb696c4407aaf": {
+    "query": "What is Usama's full name?",
+    "response": {
+      "response": "Usama Masood",
+      "sources": [
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "context.txt",
+            "file_path": "./data\\context.txt",
+            "category": "context"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "profile.txt",
+            "file_path": "./data\\profile.txt",
+            "category": "profile"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL KNOWLEDGE BASE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n**Professional Title:** Data Scientist | AI & ML Engineer",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:27:52.647596",
+      "model_used": "gpt-4",
+      "processing_time": 2.662550687789917
+    },
+    "timestamp": "2025-11-12T16:27:52.647596",
+    "hits": 1
+  },
+  "75c8f9520dbb112fcebc438abade59c3": {
+    "query": "How old is Usama?",
+    "response": {
+      "response": "Usama Masood is 25 years old.",
+      "sources": [
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "context.txt",
+            "file_path": "./data\\context.txt",
+            "category": "context"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "profile.txt",
+            "file_path": "./data\\profile.txt",
+            "category": "profile"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL KNOWLEDGE BASE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n**Professional Title:** Data Scientist | AI & ML Engineer",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:27:58.387880",
+      "model_used": "gpt-4",
+      "processing_time": 2.5677571296691895
+    },
+    "timestamp": "2025-11-12T16:27:58.387880",
+    "hits": 1
+  },
+  "7ee60c9af65f6cadd33304aced5a8fb1": {
+    "query": "What is Usama's email address?",
+    "response": {
+      "response": "I'm sorry, but the context provided does not include an email address for Usama Masood.",
+      "sources": [
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "context.txt",
+            "file_path": "./data\\context.txt",
+            "category": "context"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "profile.txt",
+            "file_path": "./data\\profile.txt",
+            "category": "profile"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL KNOWLEDGE BASE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n**Professional Title:** Data Scientist | AI & ML Engineer",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:28:06.788229",
+      "model_used": "gpt-4",
+      "processing_time": 4.70876407623291
+    },
+    "timestamp": "2025-11-12T16:28:06.789589",
+    "hits": 1
+  },
+  "d31d929a2df201cee6aa386911c5d3b3": {
+    "query": "Where is Usama located?",
+    "response": {
+      "response": "Usama's current location is Middlesbrough, United Kingdom.",
+      "sources": [
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "context.txt",
+            "file_path": "./data\\context.txt",
+            "category": "context"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "profile.txt",
+            "file_path": "./data\\profile.txt",
+            "category": "profile"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive RAG experience with 3 major projects:\n- Implemented RAG pipelines using LangChain framework\n- Vector databases: FAISS and ChromaDB\n- LLMs: OpenAI GPT-3.5/4, Ollama\n- 90%+ accuracy, 60% response time improvement\n- Production deployments with real organizations\n\n---\n\n## Work Experience\n\n**Question: \"What is Usama's work experience?\"**\n\n**Synthesize from:**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:28:13.136786",
+      "model_used": "gpt-4",
+      "processing_time": 2.652967691421509
+    },
+    "timestamp": "2025-11-12T16:28:13.136786",
+    "hits": 1
+  },
+  "33df02a99f9a2627526565f89f36fb1d": {
+    "query": "What is Usama's phone number?",
+    "response": {
+      "response": "I'm sorry, but I don't have the specific information about Usama Masood's phone number.",
+      "sources": [
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "context.txt",
+            "file_path": "./data\\context.txt",
+            "category": "context"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "profile.txt",
+            "file_path": "./data\\profile.txt",
+            "category": "profile"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL KNOWLEDGE BASE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n**Professional Title:** Data Scientist | AI & ML Engineer",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:28:20.372713",
+      "model_used": "gpt-4",
+      "processing_time": 3.7517857551574707
+    },
+    "timestamp": "2025-11-12T16:28:20.372713",
+    "hits": 1
+  },
+  "66c89c05a5f9e519817677017adedf5b": {
+    "query": "What is Usama's educational background?",
+    "response": {
+      "response": "I'm sorry, but I don't have specific information on Usama Masood's educational background. Given his professional title as a Data Scientist and AI/ML Engineer, he likely has a degree in a related field such as Computer Science, Statistics, or Data Science.",
+      "sources": [
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "context.txt",
+            "file_path": "./data\\context.txt",
+            "category": "context"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "profile.txt",
+            "file_path": "./data\\profile.txt",
+            "category": "profile"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL KNOWLEDGE BASE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n**Professional Title:** Data Scientist | AI & ML Engineer",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:28:28.033576",
+      "model_used": "gpt-4",
+      "processing_time": 4.092083930969238
+    },
+    "timestamp": "2025-11-12T16:28:28.034585",
+    "hits": 1
+  },
+  "c128baa72f38d1faba43ce64cc0abde0": {
+    "query": "What degree does Usama have?",
+    "response": {
+      "response": "Usama has a MSc in Data Science and a BSc in Electrical Engineering.",
+      "sources": [
+        {
+          "content": "## UNIQUE SELLING POINTS\n\n**Why Hire Usama:**\n\n1. **Strong Academic Foundation:**\n   - MSc Data Science (Distinction expected) from Teesside University\n   - BSc Electrical Engineering from top-tier NUST\n   - Consistent high academic performance (94%+ in school, 87%+ in college)\n   - 98%+ average in IBM Data Science certification",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive RAG experience with 3 major projects:\n- Implemented RAG pipelines using LangChain framework\n- Vector databases: FAISS and ChromaDB\n- LLMs: OpenAI GPT-3.5/4, Ollama\n- 90%+ accuracy, 60% response time improvement\n- Production deployments with real organizations\n\n---\n\n## Work Experience\n\n**Question: \"What is Usama's work experience?\"**\n\n**Synthesize from:**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Remote Work:** Fully equipped for remote work\n\n**Hybrid:** Preferred option for work-life balance\n\n**On-site:** Willing for right opportunity\n\n## UNIQUE SELLING POINTS\n\n**Why Hire Usama:**\n\n1. **Strong Academic Foundation:**\n   - MSc Data Science (Distinction expected)\n   - BSc Electrical Engineering from top-tier university\n   - Consistent high grades (94%+ in foundational education)",
+          "metadata": {
+            "source": "context.txt",
+            "file_path": "./data\\context.txt",
+            "category": "context"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:28:35.459793",
+      "model_used": "gpt-4",
+      "processing_time": 4.097554445266724
+    },
+    "timestamp": "2025-11-12T16:28:35.460626",
+    "hits": 1
+  },
+  "ef32638c0c1573bfa2b060e655ed9e75": {
+    "query": "Where did Usama study?",
+    "response": {
+      "response": "I'm sorry, but the context doesn't provide any specific information about where Usama Masood pursued his studies.",
+      "sources": [
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "context.txt",
+            "file_path": "./data\\context.txt",
+            "category": "context"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "profile.txt",
+            "file_path": "./data\\profile.txt",
+            "category": "profile"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL KNOWLEDGE BASE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n**Professional Title:** Data Scientist | AI & ML Engineer",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:28:42.223390",
+      "model_used": "gpt-4",
+      "processing_time": 2.8657467365264893
+    },
+    "timestamp": "2025-11-12T16:28:42.223995",
+    "hits": 1
+  },
+  "bf0d01f127b66a24d8b488079ba9f43a": {
+    "query": "What was Usama's GPA or grade?",
+    "response": {
+      "response": "I'm sorry, but the specific information about Usama Masood's GPA or grade is not provided in the context.",
+      "sources": [
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "context.txt",
+            "file_path": "./data\\context.txt",
+            "category": "context"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "profile.txt",
+            "file_path": "./data\\profile.txt",
+            "category": "profile"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL KNOWLEDGE BASE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n**Professional Title:** Data Scientist | AI & ML Engineer",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:28:48.733248",
+      "model_used": "gpt-4",
+      "processing_time": 2.7163496017456055
+    },
+    "timestamp": "2025-11-12T16:28:48.733248",
+    "hits": 1
+  },
+  "92e5fbd7dea92da6101bfea7f10e6a00": {
+    "query": "What programming languages does Usama know?",
+    "response": {
+      "response": "I don't have the specific information on Usama's proficiency in programming languages. However, given his extensive work in machine learning and AI, he would likely be proficient in Python, which is commonly used in these fields. He may also be familiar with other languages commonly used in data science such as R and SQL.",
+      "sources": [
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive RAG experience with 3 major projects:\n- Implemented RAG pipelines using LangChain framework\n- Vector databases: FAISS and ChromaDB\n- LLMs: OpenAI GPT-3.5/4, Ollama\n- 90%+ accuracy, 60% response time improvement\n- Production deployments with real organizations\n\n---\n\n## Work Experience\n\n**Question: \"What is Usama's work experience?\"**\n\n**Synthesize from:**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive machine learning skills demonstrated across multiple projects:\n- Classical ML: SVM (99.8% accuracy), Random Forest (R\u00b2=0.87), XGBoost, Neural Networks, Decision Trees\n- Techniques: Cross-validation, hyperparameter tuning (GridSearchCV), SMOTE balancing, LIME explainability\n- Statistical Methods: Hypothesis testing, A/B testing, regression analysis\n- Frameworks: Scikit-learn, TensorFlow, PyTorch",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\n- Professional: Web Developer Intern at Techionik (June-Sep 2023, 4 months)\n- Academic + Real-world: MSc thesis project with FURBD charity, deployed production AI chatbot\n- Project Experience: Multiple production-ready AI/ML projects including enterprise systems and healthcare analytics\n- Proven track record: 5+ delivered client projects, 90%+ accuracy in ML systems\n\n---\n\n## LLM Models Experience\n\n**Question: \"What LLM models has Usama worked with?\"**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:29:00.840174",
+      "model_used": "gpt-4",
+      "processing_time": 7.352976560592651
+    },
+    "timestamp": "2025-11-12T16:29:00.840174",
+    "hits": 1
+  },
+  "62d48b7684ad8c5a5a80caa6a0c111c4": {
+    "query": "What are Usama's machine learning skills?",
+    "response": {
+      "response": "Usama has extensive machine learning skills demonstrated across multiple projects. He has experience with classical machine learning algorithms like SVM, which he has used to achieve 99.8% accuracy. He's also used Random Forest, achieving a solid R\u00b2 score of 0.87, and XGBoost. Beyond these, he has worked with Neural Networks and Decision Trees.\n\nIn terms of techniques, he's proficient with Cross-validation, hyperparameter tuning utilizing GridSearchCV, SMOTE balancing for dealing with imbalanced datasets, and LIME for model explainability. He also has a good grasp of statistical methods such as Hypothesis testing, A/B testing, and regression analysis.\n\nRegarding frameworks, Usama has worked with Scikit-learn, TensorFlow, and PyTorch. So, he's well-equipped for both traditional machine learning tasks and deep learning models.",
+      "sources": [
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive machine learning skills demonstrated across multiple projects:\n- Classical ML: SVM (99.8% accuracy), Random Forest (R\u00b2=0.87), XGBoost, Neural Networks, Decision Trees\n- Techniques: Cross-validation, hyperparameter tuning (GridSearchCV), SMOTE balancing, LIME explainability\n- Statistical Methods: Hypothesis testing, A/B testing, regression analysis\n- Frameworks: Scikit-learn, TensorFlow, PyTorch",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# QUICK REFERENCE GUIDE FOR COMMON QUERIES\n\n## Machine Learning Skills - Evidence from Projects\n\n**Question: \"What are Usama's machine learning skills?\"**\n\n**Answer should synthesize from:**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "---\n\n## ANSWERING GUIDELINES FOR AI ASSISTANT\n\nWhen answering questions about Usama:\n\n1. **Synthesize Information:**\n   - Combine details from multiple sections\n   - Provide comprehensive answers with specific examples\n   - Include numbers, metrics, and concrete achievements\n\n2. **Be Specific:**\n   - Mention project names, technologies, and outcomes\n   - Include accuracy percentages, time improvements, dataset sizes\n   - Reference specific courses, grades, and certifications",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:29:18.115392",
+      "model_used": "gpt-4",
+      "processing_time": 13.360756635665894
+    },
+    "timestamp": "2025-11-12T16:29:18.115392",
+    "hits": 1
+  },
+  "9c4f26fcfb3a994d4bdbd0d92af552a8": {
+    "query": "Does Usama know deep learning?",
+    "response": {
+      "response": "Based on the context, Usama has indeed worked with deep learning. He has used deep learning frameworks like TensorFlow and PyTorch, which are commonly used for implementing neural networks, a type of deep learning model. However, the context doesn't specify the exact types of neural networks or deep learning models he has worked with.",
+      "sources": [
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive machine learning skills demonstrated across multiple projects:\n- Classical ML: SVM (99.8% accuracy), Random Forest (R\u00b2=0.87), XGBoost, Neural Networks, Decision Trees\n- Techniques: Cross-validation, hyperparameter tuning (GridSearchCV), SMOTE balancing, LIME explainability\n- Statistical Methods: Hypothesis testing, A/B testing, regression analysis\n- Frameworks: Scikit-learn, TensorFlow, PyTorch",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\n- Professional: Web Developer Intern at Techionik (June-Sep 2023, 4 months)\n- Academic + Real-world: MSc thesis project with FURBD charity, deployed production AI chatbot\n- Project Experience: Multiple production-ready AI/ML projects including enterprise systems and healthcare analytics\n- Proven track record: 5+ delivered client projects, 90%+ accuracy in ML systems\n\n---\n\n## LLM Models Experience\n\n**Question: \"What LLM models has Usama worked with?\"**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# QUICK REFERENCE GUIDE FOR COMMON QUERIES\n\n## Machine Learning Skills - Evidence from Projects\n\n**Question: \"What are Usama's machine learning skills?\"**\n\n**Answer should synthesize from:**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:29:26.488836",
+      "model_used": "gpt-4",
+      "processing_time": 4.23240327835083
+    },
+    "timestamp": "2025-11-12T16:29:26.488836",
+    "hits": 1
+  },
+  "c9ff1085eb09082f40d78405514eb724": {
+    "query": "What NLP skills does Usama have?",
+    "response": {
+      "response": "I'm sorry for the inconvenience, but the provided context doesn't include specific information about Usama's skills in Natural Language Processing. However, as a Data Scientist and AI/ML Engineer, he is likely to be familiar with NLP techniques such as sentiment analysis, text classification, named entity recognition, and machine translation. He would also potentially be adept with NLP libraries such as NLTK, spaCy, and Gensim, and frameworks like BERT or Transformers for deep learning-based NLP tasks. This is an educated assumption based on his role and expertise, and the exact details might differ.",
+      "sources": [
+        {
+          "content": "# QUICK REFERENCE GUIDE FOR COMMON QUERIES\n\n## Machine Learning Skills - Evidence from Projects\n\n**Question: \"What are Usama's machine learning skills?\"**\n\n**Answer should synthesize from:**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive machine learning skills demonstrated across multiple projects:\n- Classical ML: SVM (99.8% accuracy), Random Forest (R\u00b2=0.87), XGBoost, Neural Networks, Decision Trees\n- Techniques: Cross-validation, hyperparameter tuning (GridSearchCV), SMOTE balancing, LIME explainability\n- Statistical Methods: Hypothesis testing, A/B testing, regression analysis\n- Frameworks: Scikit-learn, TensorFlow, PyTorch",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "---\n\n## ANSWERING GUIDELINES FOR AI ASSISTANT\n\nWhen answering questions about Usama:\n\n1. **Synthesize Information:**\n   - Combine details from multiple sections\n   - Provide comprehensive answers with specific examples\n   - Include numbers, metrics, and concrete achievements\n\n2. **Be Specific:**\n   - Mention project names, technologies, and outcomes\n   - Include accuracy percentages, time improvements, dataset sizes\n   - Reference specific courses, grades, and certifications",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:29:35.664943",
+      "model_used": "gpt-4",
+      "processing_time": 5.930536508560181
+    },
+    "timestamp": "2025-11-12T16:29:35.664943",
+    "hits": 1
+  },
+  "d0cc925b49061715d43a8f636a8c7f80": {
+    "query": "Does Usama know LangChain?",
+    "response": {
+      "response": "Yes, Usama is familiar with LangChain. He has implemented RAG pipelines using the LangChain framework in his projects.",
+      "sources": [
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive RAG experience with 3 major projects:\n- Implemented RAG pipelines using LangChain framework\n- Vector databases: FAISS and ChromaDB\n- LLMs: OpenAI GPT-3.5/4, Ollama\n- 90%+ accuracy, 60% response time improvement\n- Production deployments with real organizations\n\n---\n\n## Work Experience\n\n**Question: \"What is Usama's work experience?\"**\n\n**Synthesize from:**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "### Contact Information\n- **Email:** usamamasood531@gmail.com\n- **Phone:** +44 7724 030958\n- **LinkedIn:** linkedin.com/in/masood-usama\n- **GitHub:** github.com/UsamaMasood12\n- **Portfolio:** https://usamamasood12.github.io/Portfolio\n\n### Languages\n- **English:** Fluent (Professional working proficiency)\n- **Urdu:** Native/Bilingual proficiency\n- **Punjabi:** Native\n\n---\n\n## EDUCATION BACKGROUND",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive machine learning skills demonstrated across multiple projects:\n- Classical ML: SVM (99.8% accuracy), Random Forest (R\u00b2=0.87), XGBoost, Neural Networks, Decision Trees\n- Techniques: Cross-validation, hyperparameter tuning (GridSearchCV), SMOTE balancing, LIME explainability\n- Statistical Methods: Hypothesis testing, A/B testing, regression analysis\n- Frameworks: Scikit-learn, TensorFlow, PyTorch",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:29:42.024741",
+      "model_used": "gpt-4",
+      "processing_time": 2.8590199947357178
+    },
+    "timestamp": "2025-11-12T16:29:42.024741",
+    "hits": 1
+  },
+  "3aeeb2b20bb38253eeedc86218185b78": {
+    "query": "What cloud platforms does Usama use?",
+    "response": {
+      "response": "Usama has experience with various cloud platforms including Microsoft Azure and Google Cloud Platform. Specifically, he has utilized Azure ML, Functions, Blob Storage on Microsoft Azure, and Vertex AI, Cloud Functions, BigQuery on Google Cloud Platform.",
+      "sources": [
+        {
+          "content": "**Other Cloud Platforms:**\n- **Microsoft Azure:** Azure ML, Functions, Blob Storage\n- **Google Cloud Platform:** Vertex AI, Cloud Functions, BigQuery",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\n- Professional: Web Developer Intern at Techionik (June-Sep 2023, 4 months)\n- Academic + Real-world: MSc thesis project with FURBD charity, deployed production AI chatbot\n- Project Experience: Multiple production-ready AI/ML projects including enterprise systems and healthcare analytics\n- Proven track record: 5+ delivered client projects, 90%+ accuracy in ML systems\n\n---\n\n## LLM Models Experience\n\n**Question: \"What LLM models has Usama worked with?\"**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive RAG experience with 3 major projects:\n- Implemented RAG pipelines using LangChain framework\n- Vector databases: FAISS and ChromaDB\n- LLMs: OpenAI GPT-3.5/4, Ollama\n- 90%+ accuracy, 60% response time improvement\n- Production deployments with real organizations\n\n---\n\n## Work Experience\n\n**Question: \"What is Usama's work experience?\"**\n\n**Synthesize from:**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:29:51.020072",
+      "model_used": "gpt-4",
+      "processing_time": 3.2616896629333496
+    },
+    "timestamp": "2025-11-12T16:29:51.020072",
+    "hits": 1
+  },
+  "2f1f0f1b19683a040b91ea3fcd7f65b6": {
+    "query": "Tell me about Usama's projects",
+    "response": {
+      "response": "Based on the context, Usama has been involved in several major projects. Although the specific project names aren't mentioned, they are described in detail:\n\n1. RAG Projects: He has extensive experience with RAG (Retrieve and Generate) technology, having worked on three significant projects. He implemented RAG pipelines using the LangChain framework and worked with vector databases such as FAISS and ChromaDB. He also worked with Large Language Models (LLMs) like OpenAI GPT-3.5/4 and Ollama. These projects have resulted in an impressive 90%+ accuracy and a 60% improvement in response time. They have been deployed in production with real organizations.\n\n2. MSc Thesis Project: As part of his academic work, Usama collaborated with the FURBD charity to execute his MSc thesis project. This project involved deploying a production AI chatbot, demonstrating his ability to apply his knowledge to real-world problems.\n\n3. Professional Experience: During his tenure as a Web Developer Intern at Techionik, Usama gained practical experience in a professional setting. This internship lasted from June to September 2023 (4 months).\n\n4. Other AI/ML Projects: Usama has worked on multiple production-ready AI/ML projects, including enterprise systems and healthcare analytics. His track record includes the delivery of 5+ client projects with a 90%+ accuracy in Machine Learning systems.\n\nPlease note that this information is synthesized from the provided context and does not contain the exact names of the projects.",
+      "sources": [
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive RAG experience with 3 major projects:\n- Implemented RAG pipelines using LangChain framework\n- Vector databases: FAISS and ChromaDB\n- LLMs: OpenAI GPT-3.5/4, Ollama\n- 90%+ accuracy, 60% response time improvement\n- Production deployments with real organizations\n\n---\n\n## Work Experience\n\n**Question: \"What is Usama's work experience?\"**\n\n**Synthesize from:**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "---\n\n## ANSWERING GUIDELINES FOR AI ASSISTANT\n\nWhen answering questions about Usama:\n\n1. **Synthesize Information:**\n   - Combine details from multiple sections\n   - Provide comprehensive answers with specific examples\n   - Include numbers, metrics, and concrete achievements\n\n2. **Be Specific:**\n   - Mention project names, technologies, and outcomes\n   - Include accuracy percentages, time improvements, dataset sizes\n   - Reference specific courses, grades, and certifications",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\n- Professional: Web Developer Intern at Techionik (June-Sep 2023, 4 months)\n- Academic + Real-world: MSc thesis project with FURBD charity, deployed production AI chatbot\n- Project Experience: Multiple production-ready AI/ML projects including enterprise systems and healthcare analytics\n- Proven track record: 5+ delivered client projects, 90%+ accuracy in ML systems\n\n---\n\n## LLM Models Experience\n\n**Question: \"What LLM models has Usama worked with?\"**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:30:06.172797",
+      "model_used": "gpt-4",
+      "processing_time": 11.44210171699524
+    },
+    "timestamp": "2025-11-12T16:30:06.172797",
+    "hits": 1
+  },
+  "2c4260e64ae25686dc09e4872cca934c": {
+    "query": "What projects showcase Usama's AI skills?",
+    "response": {
+      "response": "Usama has demonstrated his artificial intelligence skills across multiple projects. He has utilized various classical machine learning algorithms such as SVM, which achieved a 99.8% accuracy, Random Forest with an R\u00b2 of 0.87, XGBoost, Neural Networks, and Decision Trees. \n\nMoreover, he has shown competence in applying various techniques like Cross-validation, hyperparameter tuning with GridSearchCV, SMOTE balancing, and LIME for model explainability. \n\nIn terms of statistical methods, he has used Hypothesis testing, A/B testing, and regression analysis. \n\nFurthermore, he has experience with various frameworks, including Scikit-learn, TensorFlow, and PyTorch, which are essential tools in the field of AI. \n\nOn the professional front, he was a Web Developer Intern at Techionik, where he gained real-world experience from June to September 2023. \n\nIn academics, he undertook a real-world MSc thesis project with FURBD charity and successfully deployed a production AI chatbot. \n\nWith a proven track record of over 5 delivered client projects and achieving over 90% accuracy in machine learning systems, Usama has demonstrated a high level of expertise in artificial intelligence.",
+      "sources": [
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive machine learning skills demonstrated across multiple projects:\n- Classical ML: SVM (99.8% accuracy), Random Forest (R\u00b2=0.87), XGBoost, Neural Networks, Decision Trees\n- Techniques: Cross-validation, hyperparameter tuning (GridSearchCV), SMOTE balancing, LIME explainability\n- Statistical Methods: Hypothesis testing, A/B testing, regression analysis\n- Frameworks: Scikit-learn, TensorFlow, PyTorch",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "---\n\n## ANSWERING GUIDELINES FOR AI ASSISTANT\n\nWhen answering questions about Usama:\n\n1. **Synthesize Information:**\n   - Combine details from multiple sections\n   - Provide comprehensive answers with specific examples\n   - Include numbers, metrics, and concrete achievements\n\n2. **Be Specific:**\n   - Mention project names, technologies, and outcomes\n   - Include accuracy percentages, time improvements, dataset sizes\n   - Reference specific courses, grades, and certifications",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\n- Professional: Web Developer Intern at Techionik (June-Sep 2023, 4 months)\n- Academic + Real-world: MSc thesis project with FURBD charity, deployed production AI chatbot\n- Project Experience: Multiple production-ready AI/ML projects including enterprise systems and healthcare analytics\n- Proven track record: 5+ delivered client projects, 90%+ accuracy in ML systems\n\n---\n\n## LLM Models Experience\n\n**Question: \"What LLM models has Usama worked with?\"**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:30:25.228969",
+      "model_used": "gpt-4",
+      "processing_time": 10.438693284988403
+    },
+    "timestamp": "2025-11-12T16:30:25.236968",
+    "hits": 1
+  },
+  "36eaaecd5dec74b5aafdf2eb0ef2b362": {
+    "query": "Has Usama built any production systems?",
+    "response": {
+      "response": "Yes, Usama has built multiple production systems. He has worked on projects such as an enterprise AI assistant using Ollama for local inference and LangChain for LLM orchestration. He also developed a donor chatbot and a portfolio chatbot using OpenAI GPT-3.5 and GPT-4.",
+      "sources": [
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL KNOWLEDGE BASE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n**Professional Title:** Data Scientist | AI & ML Engineer",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "USAMA MASOOD\nDATA SCIENTIST | AI & ML ENGINEER\n\nContact Information:\n- Location: Middlesbrough, UK\n- Phone: +44 7724 030958\n- Email: usamamasood531@gmail.com\n- LinkedIn: linkedin.com/in/masood-usama\n- GitHub: github.com/UsamaMasood12\n- Portfolio: https://usamamasood12.github.io/Portfolio\n\nPROFESSIONAL SUMMARY",
+          "metadata": {
+            "source": "cv.txt",
+            "file_path": "./data\\cv.txt",
+            "category": "cv"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Evidence from projects:**\n- OpenAI GPT-3.5 and GPT-4 (donor chatbot, portfolio chatbot)\n- Ollama for local inference (enterprise AI assistant)\n- Fine-tuning capabilities mentioned in skills\n- LangChain for LLM orchestration\n- Prompt engineering expertise\n\n---\n\n## Production Systems\n\n**Question: \"Has Usama built production systems?\"**\n\n**Yes - Multiple:**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:30:33.834043",
+      "model_used": "gpt-4",
+      "processing_time": 4.093114852905273
+    },
+    "timestamp": "2025-11-12T16:30:33.834043",
+    "hits": 1
+  },
+  "254ddf87c379436fada00070bcb2ec57": {
+    "query": "What is Usama's work experience?",
+    "response": {
+      "response": "Usama's work experience is quite diverse, spanning from professional to academic realms. He served as a Web Developer Intern at Techionik from June to September 2023 for a duration of 4 months. His academic and real-world experience includes an MSc thesis project with FURBD charity where he deployed a production AI chatbot. In addition, Usama has worked on multiple production-ready AI/ML projects covering various domains such as enterprise systems and healthcare analytics. His proven track record includes the successful delivery of more than 5 client projects and achieving 90%+ accuracy in ML systems.",
+      "sources": [
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive RAG experience with 3 major projects:\n- Implemented RAG pipelines using LangChain framework\n- Vector databases: FAISS and ChromaDB\n- LLMs: OpenAI GPT-3.5/4, Ollama\n- 90%+ accuracy, 60% response time improvement\n- Production deployments with real organizations\n\n---\n\n## Work Experience\n\n**Question: \"What is Usama's work experience?\"**\n\n**Synthesize from:**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "7. **Be Recruiter-Friendly:**\n   - Professional yet conversational tone\n   - Highlight business value and impact\n   - Mention soft skills when relevant\n   - Include availability and work authorization\n\n---\n\n**Last Updated:** November 2024\n**Version:** 2.0 - Complete Knowledge Base\n**Purpose:** Single source of truth for all information about Usama Masood",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\n- Professional: Web Developer Intern at Techionik (June-Sep 2023, 4 months)\n- Academic + Real-world: MSc thesis project with FURBD charity, deployed production AI chatbot\n- Project Experience: Multiple production-ready AI/ML projects including enterprise systems and healthcare analytics\n- Proven track record: 5+ delivered client projects, 90%+ accuracy in ML systems\n\n---\n\n## LLM Models Experience\n\n**Question: \"What LLM models has Usama worked with?\"**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:30:42.369378",
+      "model_used": "gpt-4",
+      "processing_time": 5.234964847564697
+    },
+    "timestamp": "2025-11-12T16:30:42.369378",
+    "hits": 1
+  },
+  "7fcc561af0eb58c109494e17ba1d5702": {
+    "query": "Has Usama worked as a Data Scientist?",
+    "response": {
+      "response": "Yes, Usama Masood works in the role of a Data Scientist, as well as an AI & ML Engineer.",
+      "sources": [
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL KNOWLEDGE BASE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n**Professional Title:** Data Scientist | AI & ML Engineer",
+          "metadata": {
+            "source": "data.txt",
+            "file_path": "./data\\data.txt",
+            "category": "data"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive RAG experience with 3 major projects:\n- Implemented RAG pipelines using LangChain framework\n- Vector databases: FAISS and ChromaDB\n- LLMs: OpenAI GPT-3.5/4, Ollama\n- 90%+ accuracy, 60% response time improvement\n- Production deployments with real organizations\n\n---\n\n## Work Experience\n\n**Question: \"What is Usama's work experience?\"**\n\n**Synthesize from:**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "USAMA MASOOD\nDATA SCIENTIST | AI & ML ENGINEER\n\nContact Information:\n- Location: Middlesbrough, UK\n- Phone: +44 7724 030958\n- Email: usamamasood531@gmail.com\n- LinkedIn: linkedin.com/in/masood-usama\n- GitHub: github.com/UsamaMasood12\n- Portfolio: https://usamamasood12.github.io/Portfolio\n\nPROFESSIONAL SUMMARY",
+          "metadata": {
+            "source": "cv.txt",
+            "file_path": "./data\\cv.txt",
+            "category": "cv"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:30:48.334320",
+      "model_used": "gpt-4",
+      "processing_time": 2.6176393032073975
+    },
+    "timestamp": "2025-11-12T16:30:48.335332",
+    "hits": 1
+  },
+  "d88b892dd3c8915bc147c8e8e8bb91e0": {
+    "query": "What kind of ML projects has Usama worked on?",
+    "response": {
+      "response": "Usama has worked on a wide array of machine learning projects, demonstrating a broad range of skills. These include:\n\n- Classical machine learning algorithms such as Support Vector Machines (SVM), Random Forest, and XGBoost, which he used to achieve a high accuracy of 99.8% and an R\u00b2 of 0.87 in some projects.\n  \n- Neural Networks, a type of deep learning model, highlighting his expertise in more advanced ML techniques.\n  \n- Decision Trees, a simple yet powerful ML algorithm used for both classification and regression tasks.\n  \n- He has also implemented various techniques such as cross-validation, hyperparameter tuning using GridSearchCV, SMOTE balancing, and LIME for model explainability.\n  \n- His knowledge of statistical methods is evident in his use of hypothesis testing, A/B testing, and regression analysis in his projects.\n  \n- In terms of frameworks, he has experience with Scikit-learn, TensorFlow, and PyTorch, which are widely used in the field of machine learning and data science.\n\nAdditionally, his professional, academic, and project experiences, including his role as a Web Developer Intern at Techionik, his MSc thesis project with FURBD charity, and multiple production-ready AI/ML projects, further demonstrate his practical skills in this domain. He also has a proven track record with 5+ delivered client projects and over 90% accuracy in his ML systems.",
+      "sources": [
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive machine learning skills demonstrated across multiple projects:\n- Classical ML: SVM (99.8% accuracy), Random Forest (R\u00b2=0.87), XGBoost, Neural Networks, Decision Trees\n- Techniques: Cross-validation, hyperparameter tuning (GridSearchCV), SMOTE balancing, LIME explainability\n- Statistical Methods: Hypothesis testing, A/B testing, regression analysis\n- Frameworks: Scikit-learn, TensorFlow, PyTorch",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\n- Professional: Web Developer Intern at Techionik (June-Sep 2023, 4 months)\n- Academic + Real-world: MSc thesis project with FURBD charity, deployed production AI chatbot\n- Project Experience: Multiple production-ready AI/ML projects including enterprise systems and healthcare analytics\n- Proven track record: 5+ delivered client projects, 90%+ accuracy in ML systems\n\n---\n\n## LLM Models Experience\n\n**Question: \"What LLM models has Usama worked with?\"**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# QUICK REFERENCE GUIDE FOR COMMON QUERIES\n\n## Machine Learning Skills - Evidence from Projects\n\n**Question: \"What are Usama's machine learning skills?\"**\n\n**Answer should synthesize from:**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:31:05.684526",
+      "model_used": "gpt-4",
+      "processing_time": 13.46075701713562
+    },
+    "timestamp": "2025-11-12T16:31:05.684526",
+    "hits": 1
+  },
+  "75bc88f2078d3840b33f3a0302c02ffe": {
+    "query": "When can Usama start?",
+    "response": {
+      "response": "Based on the provided information, I don't have the exact date when Usama is available to start. However, considering his professional and academic commitments, it would be reasonable to infer that he would likely need to wrap up any current projects or obligations before starting a new role. It's always best to ask directly for the most accurate information.",
+      "sources": [
+        {
+          "content": "**Comprehensive Answer:**\n- Professional: Web Developer Intern at Techionik (June-Sep 2023, 4 months)\n- Academic + Real-world: MSc thesis project with FURBD charity, deployed production AI chatbot\n- Project Experience: Multiple production-ready AI/ML projects including enterprise systems and healthcare analytics\n- Proven track record: 5+ delivered client projects, 90%+ accuracy in ML systems\n\n---\n\n## LLM Models Experience\n\n**Question: \"What LLM models has Usama worked with?\"**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive RAG experience with 3 major projects:\n- Implemented RAG pipelines using LangChain framework\n- Vector databases: FAISS and ChromaDB\n- LLMs: OpenAI GPT-3.5/4, Ollama\n- 90%+ accuracy, 60% response time improvement\n- Production deployments with real organizations\n\n---\n\n## Work Experience\n\n**Question: \"What is Usama's work experience?\"**\n\n**Synthesize from:**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# USAMA MASOOD - COMPLETE PROFESSIONAL PROFILE\n\n## PERSONAL INFORMATION\n\n**Full Name:** Usama Masood\n**Date of Birth:** June 2, 1999 (Age: 25 years old)\n**Gender:** Male\n**Place of Birth:** Lahore, Punjab, Pakistan\n**Nationality:** Pakistani\n**Current Location:** Middlesbrough, United Kingdom\n\n## CONTACT INFORMATION",
+          "metadata": {
+            "source": "context.txt",
+            "file_path": "./data\\context.txt",
+            "category": "context"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:31:16.431273",
+      "model_used": "gpt-4",
+      "processing_time": 4.572494983673096
+    },
+    "timestamp": "2025-11-12T16:31:16.435233",
+    "hits": 1
+  },
+  "30192c5a1a2e405c2627a28192e4e3ce": {
+    "query": "Does Usama fit a Senior Data Scientist role requiring Python, ML, and NLP?",
+    "response": {
+      "response": "Based on the provided information, Usama Masood is highly suitable for a Senior Data Scientist role requiring skills in Python, Machine Learning, and Natural Language Processing. \n\nAs per the information available, he has demonstrated strong machine learning skills across various projects. These skills include the use of classical ML models such as SVM, Random Forest, XGBoost, Neural Networks, and Decision Trees. He is also proficient in techniques like cross-validation, hyperparameter tuning (using GridSearchCV), SMOTE balancing, and LIME explainability. In addition, he has experience with statistical methods including hypothesis testing, A/B testing, and regression analysis. \n\nMoreover, Usama has worked extensively with machine learning frameworks such as Scikit-learn, TensorFlow, and PyTorch, which are often used in conjunction with Python for ML development.\n\nWhile the exact details about his experience with Natural Language Processing aren't provided, the fact that he has successfully deployed production AI chatbots for his MSc thesis project and other client projects indicates a strong likelihood of him having relevant skills in Natural Language Processing as well. \n\nGiven his comprehensive skillset and proven track record in delivering client projects with high accuracy, it would be safe to infer that Usama is a strong candidate for a Senior Data Scientist role.",
+      "sources": [
+        {
+          "content": "**Comprehensive Answer:**\nUsama has extensive machine learning skills demonstrated across multiple projects:\n- Classical ML: SVM (99.8% accuracy), Random Forest (R\u00b2=0.87), XGBoost, Neural Networks, Decision Trees\n- Techniques: Cross-validation, hyperparameter tuning (GridSearchCV), SMOTE balancing, LIME explainability\n- Statistical Methods: Hypothesis testing, A/B testing, regression analysis\n- Frameworks: Scikit-learn, TensorFlow, PyTorch",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "**Comprehensive Answer:**\n- Professional: Web Developer Intern at Techionik (June-Sep 2023, 4 months)\n- Academic + Real-world: MSc thesis project with FURBD charity, deployed production AI chatbot\n- Project Experience: Multiple production-ready AI/ML projects including enterprise systems and healthcare analytics\n- Proven track record: 5+ delivered client projects, 90%+ accuracy in ML systems\n\n---\n\n## LLM Models Experience\n\n**Question: \"What LLM models has Usama worked with?\"**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        },
+        {
+          "content": "# QUICK REFERENCE GUIDE FOR COMMON QUERIES\n\n## Machine Learning Skills - Evidence from Projects\n\n**Question: \"What are Usama's machine learning skills?\"**\n\n**Answer should synthesize from:**",
+          "metadata": {
+            "source": "answer_synthesis_guide.txt",
+            "file_path": "./data\\answer_synthesis_guide.txt",
+            "category": "answer_synthesis_guide"
+          },
+          "relevance_score": null
+        }
+      ],
+      "conversation_id": "test-session",
+      "timestamp": "2025-11-12 16:31:41.120773",
+      "model_used": "gpt-4",
+      "processing_time": 11.365867137908936
+    },
+    "timestamp": "2025-11-12T16:31:41.120773",
+    "hits": 1
+  }
+}

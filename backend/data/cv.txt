@@ -1,0 +1,90 @@
+USAMA MASOOD
+DATA SCIENTIST | AI & ML ENGINEER
+
+Contact Information:
+- Location: Middlesbrough, UK
+- Phone: +44 7724 030958
+- Email: usamamasood531@gmail.com
+- LinkedIn: linkedin.com/in/masood-usama
+- GitHub: github.com/UsamaMasood12
+- Portfolio: https://usamamasood12.github.io/Portfolio
+
+PROFESSIONAL SUMMARY
+
+MSc Data Science graduate specializing in machine learning, artificial intelligence, deep learning, and business intelligence. Skilled in developing intelligent, data-driven solutions that enhance decision-making and operational efficiency. Strong expertise in Python, R, SQL, and advanced ML frameworks such as LangChain, TensorFlow, and PyTorch. Adept at designing scalable AI systems, fine-tuning large language models, implementing retrieval-augmented generation (RAG) architectures, and model development. Known for combining analytical precision with creative problem-solving to deliver high-performance, production-ready AI solutions that drive measurable business impact through statistical analysis and data analytics.
+
+KEY PROJECTS
+
+Enterprise AI Knowledge Assistant
+Technologies: LangChain, LangGraph, Ollama, ChromaDB, RAG, FastAPI, NLP, OpenAI, AWS
+- Developed an intelligent multi-agent system using LangChain and LangGraph for processing and querying personal knowledge bases with advanced NLP capabilities
+- Implemented a Retrieval-Augmented Generation (RAG) pipeline with ChromaDB vector storage and Ollama for local LLM inference
+- Designed a multi-agent architecture with specialized agents for retrieval, research, writing, and critique using model development best practices
+
+AI Chatbot for Donor Support
+Technologies: LangChain, RAG, FAISS, LLMs, NLP
+- Developed RAG-based conversational AI for charity organization enabling automated donor queries and support with 90%+ query resolution accuracy
+- Implemented FAISS vector database for efficient information retrieval with LangChain orchestration, reducing response time by 60%
+
+Predictive Maintenance in Manufacturing
+Technologies: Python, SVM, TensorFlow, LIME, Scikit-learn, Statistical Analysis
+- Achieved 99.80% accuracy using SVM on 10,000+ data points, comparing 9 machine learning algorithms including Random Forest, XGBoost, and Neural Networks
+- Applied SMOTE balancing and built LIME explainability framework for model interpretability and statistical validation
+
+Used Car Price Prediction
+Technologies: Python, Random Forest, XGBoost, Data Analytics, Feature Engineering
+- Built regression model achieving R² of 0.8747 on 50,000+ vehicle records using advanced feature engineering techniques
+- Compared 5 algorithms with hyperparameter tuning using GridSearchCV for optimal performance and model development
+
+NHS Digital Data Analysis Challenge
+Technologies: Excel, Python, R, Statistical Analysis, Data Analytics
+- Analyzed NHS healthcare dataset of 100,000+ records using Excel dashboards, Python statistical testing, and R visualizations
+- Identified key healthcare insights including patient demographics and treatment outcome patterns using statistical analysis and business intelligence techniques
+
+Interactive Plastic Pollution Visualization
+Technologies: D3.js, JavaScript, Data Visualization
+- Developed interactive choropleth map for 195+ countries with multi-level filtering capabilities and real-time data updates
+- Collaborated on 4 visualizations with zoom/pan functionality and drill-down capabilities for data analytics
+
+Power BI Jewelry Analytics Dashboard
+Technologies: Power BI, DAX, SQL, Business Intelligence
+- Designed BI dashboard with star schema tracking revenue, profit margin, and inventory turnover using advanced data modeling
+- Created 50+ DAX measures including time intelligence and built 5 interactive dashboard pages for business intelligence reporting
+
+EDUCATION
+
+MSc Data Science with Advanced Practice (Distinction)
+Teesside University | Expected Feb 2026
+Thesis: AI Chatbot for Donor Support using RAG architecture, LangChain, LLMs, and FAISS vector database.
+
+BSc Electrical Engineering
+National University of Science and Technology (NUST), Pakistan | 2021
+
+PROFESSIONAL EXPERIENCE
+
+Web Developer Intern
+Techionik, Lahore, Pakistan | Jun 2023 - Sep 2023
+- Developed responsive front-end components using HTML, CSS, Bootstrap, and JavaScript for 5+ client projects
+- Managed website data using Firebase Database and collaborated using Agile methodologies in a cross-functional team of 8 developers
+
+TECHNICAL SKILLS
+
+Programming Languages & Tools: Python, R, SQL, JavaScript, C++, FastAPI, Docker, REST APIs, Git, GitHub
+
+Machine Learning & AI: Scikit-learn, TensorFlow, PyTorch, Keras, XGBoost, LightGBM, CatBoost, LangChain, LangGraph, RAG, FAISS, LLM Fine-tuning, Natural Language Processing (NLP), Computer Vision, Hugging Face Transformers, OpenAI APIs, Deep Learning, Model Development
+
+Data Analysis & Processing: Pandas, NumPy, ETL/ELT Pipelines, Data Cleaning, Feature Engineering, Statistical Analysis, Data Analytics, Vector Databases (ChromaDB, FAISS, Pinecone)
+
+Data Visualization & Business Intelligence: Power BI (DAX), Tableau, D3.js, Matplotlib, Seaborn, Plotly, Excel (Advanced), Data Storytelling
+
+Cloud & MLOps: AWS (SageMaker, Lambda, EC2, S3), Azure, Google Cloud Platform, MLOps, CI/CD, Model Deployment, Model Monitoring, Docker, Kubernetes
+
+Databases: PostgreSQL, MySQL, MongoDB, SQL Server, NoSQL, Database Design
+
+Methodologies: Agile/Scrum, Cross-functional Collaboration, Statistical Modeling, A/B Testing, Problem Solving, Stakeholder Communication
+
+CERTIFICATIONS
+
+- IBM Data Science Professional Certificate
+- Introduction to Data Science Specialization
+- Web Development Specialization
