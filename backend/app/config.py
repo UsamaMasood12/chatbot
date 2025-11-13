@@ -9,8 +9,11 @@ from functools import lru_cache
 class Settings(BaseSettings):
     """Application settings loaded from environment variables."""
     
-    # OpenAI Configuration
-    OPENAI_API_KEY: str
+    # LLM Configuration
+    OPENAI_API_KEY: str = "not-needed-for-free-models"  # Optional now
+    USE_FREE_MODEL: bool = True  # Set to True for free models (HuggingFace/Groq)
+    FREE_MODEL_TYPE: str = "groq"  # "huggingface" or "groq" (groq is faster!)
+    GROQ_API_KEY: str = ""  # Add your free key from console.groq.com
     
     # Application Settings
     APP_NAME: str = "Portfolio Chatbot"
@@ -38,9 +41,12 @@ class Settings(BaseSettings):
     TEMPERATURE: float = 0.2  # Low temperature for consistent, factual answers
     MAX_TOKENS: int = 500
     
-    # LLM Settings
-    LLM_MODEL: str = "gpt-4"
+    # LLM Settings (ignored if USE_FREE_MODEL=True)
+    LLM_MODEL: str = "gpt-3.5-turbo"
     FALLBACK_MODEL: str = "gpt-3.5-turbo"
+
+    # Free Model Settings
+    FREE_MODEL_NAME: str = "google/flan-t5-large"  # Free HuggingFace model
     
     # Rate Limiting
     RATE_LIMIT_PER_MINUTE: int = 20

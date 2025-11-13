@@ -35,3 +35,9 @@ passlib[bcrypt]==1.7.4
 numpy>=1.23.0
 requests
 rank-bm25==0.2.2
+
+# Free LLM Models (HuggingFace)
+transformers==4.36.0
+torch==2.1.2
+accelerate==0.25.0
+sentencepiece==0.1.99
