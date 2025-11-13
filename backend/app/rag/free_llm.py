@@ -121,6 +121,10 @@ class GroqFreeLLM(LLM):
         try:
             import requests
 
+            if not self.api_key or self.api_key == "":
+                logger.error("❌ Groq API key is empty!")
+                return "Error: Groq API key not configured. Please add GROQ_API_KEY to .env file."
+
             headers = {
                 "Authorization": f"Bearer {self.api_key}",
                 "Content-Type": "application/json"
@@ -133,6 +137,8 @@ class GroqFreeLLM(LLM):
                 "max_tokens": self.max_tokens
             }
 
+            logger.info(f"Calling Groq API with model: {self.model_name}")
+
             response = requests.post(
                 "https://api.groq.com/openai/v1/chat/completions",
                 headers=headers,
@@ -141,14 +147,29 @@ class GroqFreeLLM(LLM):
             )
 
             if response.status_code == 200:
-                return response.json()["choices"][0]["message"]["content"]
+                result = response.json()
+                return result["choices"][0]["message"]["content"]
             else:
-                logger.error(f"Groq API error: {response.status_code}")
-                return "Error contacting free API"
+                error_msg = f"Groq API error: {response.status_code}"
+                try:
+                    error_detail = response.json()
+                    logger.error(f"{error_msg} - {error_detail}")
+
+                    # Check for common errors
+                    if response.status_code == 401:
+                        return "Error: Invalid Groq API key. Please check your GROQ_API_KEY in .env file."
+                    elif response.status_code == 400:
+                        return "Error: Bad request to Groq API. Please check your API key is valid."
+                    elif response.status_code == 429:
+                        return "Error: Groq API rate limit exceeded. Please wait a moment."
+                except:
+                    logger.error(error_msg)
+
+                return f"Error: Unable to contact Groq API (Status {response.status_code})"
 
         except Exception as e:
             logger.error(f"Error with Groq: {str(e)}")
-            return "Free API temporarily unavailable"
+            return f"Error: Groq API error - {str(e)}"
 
     @property
     def _identifying_params(self):
