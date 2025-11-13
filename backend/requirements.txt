@@ -15,7 +15,7 @@ openai==1.6.1
 # Vector Store & Embeddings (Windows compatible)
 # chromadb==0.4.22  # Commented out - requires C++ build tools
 sentence-transformers==3.0.1
-faiss-cpu==1.8.0
+faiss-cpu>=1.9.0
 
 # Document Processing
 pypdf==3.17.4
