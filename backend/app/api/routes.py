@@ -111,22 +111,6 @@ async def chat(request: ChatRequest, req: Request) -> ChatResponse:
                 processing_time=0.1
             )
         
-        # Handle scheduling requests
-        from app.calendar_scheduler import calendar_scheduler
-        scheduling_check = calendar_scheduler.detect_scheduling_intent(sanitized_message)
-        
-        if scheduling_check['has_intent'] and scheduling_check['confidence'] > 0.6:
-            scheduling_response = calendar_scheduler.format_scheduling_response(
-                scheduling_check['meeting_type']
-            )
-            return ChatResponse(
-                response=scheduling_response,
-                sources=[],
-                conversation_id=request.session_id or str(uuid.uuid4()),
-                model_used="calendar_scheduler",
-                processing_time=0.1
-            )
-        
         # Check cache first (only for simple queries without history)
         if len(request.conversation_history) == 0:
             cached_response = response_cache.get(sanitized_message)
@@ -833,34 +817,6 @@ async def explain_code(code: str, language: str = "python") -> Dict[str, Any]:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="Failed to explain code"
-        )
-
-
-@router.post("/schedule/meeting")
-async def schedule_meeting(meeting_type: str = "intro_call") -> Dict[str, Any]:
-    """
-    Get meeting scheduling information
-    
-    Args:
-        meeting_type: Type of meeting
-        
-    Returns:
-        Scheduling information
-    """
-    from app.calendar_scheduler import calendar_scheduler
-    
-    try:
-        response = calendar_scheduler.format_scheduling_response(meeting_type)
-        return {
-            "status": "success",
-            "message": response,
-            "calendly_link": calendar_scheduler.generate_calendly_link(meeting_type)
-        }
-    except Exception as e:
-        logger.error(f"Error scheduling meeting: {str(e)}")
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail="Failed to get scheduling information"
         )
 
 
