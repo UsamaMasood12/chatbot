@@ -94,7 +94,9 @@ async def lifespan(app: FastAPI):
             retriever=smart_retriever,
             model_name=settings.LLM_MODEL,
             temperature=settings.TEMPERATURE,
-            max_tokens=settings.MAX_TOKENS
+            max_tokens=settings.MAX_TOKENS,
+            use_free_model=settings.USE_FREE_MODEL,
+            free_model_type=settings.FREE_MODEL_TYPE
         )
         
         logger.info("Portfolio Chatbot API started successfully!")

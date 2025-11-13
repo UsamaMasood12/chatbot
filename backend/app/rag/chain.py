@@ -9,6 +9,7 @@ from langchain.prompts import PromptTemplate
 from langchain.schema import Document
 import logging
 import time
+import os
 
 logger = logging.getLogger(__name__)
 
@@ -22,39 +23,61 @@ class RAGChain:
         model_name: str = "gpt-4",
         temperature: float = 0.2,
         max_tokens: int = 500,
-        fallback_models: List[str] = None
+        fallback_models: List[str] = None,
+        use_free_model: bool = False,
+        free_model_type: str = "huggingface"
     ):
         """
         Initialize RAG chain.
-        
+
         Args:
             retriever: Document retriever
-            model_name: LLM model name
+            model_name: LLM model name (ignored if use_free_model=True)
             temperature: Model temperature
             max_tokens: Maximum tokens in response
             fallback_models: List of fallback models if primary fails
+            use_free_model: If True, use free HuggingFace models (no API cost)
+            free_model_type: "huggingface" or "groq"
         """
         self.retriever = retriever
         self.model_name = model_name
         self.fallback_models = fallback_models or ["gpt-3.5-turbo", "gpt-3.5-turbo-16k"]
-        
-        # Initialize primary LLM
-        try:
-            self.llm = ChatOpenAI(
-                model=model_name,
-                temperature=temperature,
-                max_tokens=max_tokens
-            )
-            logger.info(f"Primary LLM initialized: {model_name}")
-        except Exception as e:
-            logger.error(f"Failed to initialize primary LLM: {str(e)}")
-            # Use first fallback
-            self.llm = ChatOpenAI(
-                model=self.fallback_models[0],
-                temperature=temperature,
-                max_tokens=max_tokens
-            )
-            logger.info(f"Using fallback LLM: {self.fallback_models[0]}")
+        self.use_free_model = use_free_model
+
+        # Initialize LLM based on configuration
+        if use_free_model:
+            logger.info("Using FREE model (no API costs!)")
+            try:
+                from app.rag.free_llm import get_free_llm
+                self.llm = get_free_llm(
+                    model_type=free_model_type,
+                    temperature=temperature,
+                    max_tokens=max_tokens
+                )
+                logger.info(f"✅ FREE model initialized: {free_model_type}")
+            except Exception as e:
+                logger.error(f"Failed to initialize free model: {str(e)}")
+                logger.info("Falling back to OpenAI (will fail if no quota)")
+                use_free_model = False
+
+        if not use_free_model:
+            # Use OpenAI (requires API key and quota)
+            try:
+                self.llm = ChatOpenAI(
+                    model=model_name,
+                    temperature=temperature,
+                    max_tokens=max_tokens
+                )
+                logger.info(f"Primary LLM initialized: {model_name}")
+            except Exception as e:
+                logger.error(f"Failed to initialize primary LLM: {str(e)}")
+                # Use first fallback
+                self.llm = ChatOpenAI(
+                    model=self.fallback_models[0],
+                    temperature=temperature,
+                    max_tokens=max_tokens
+                )
+                logger.info(f"Using fallback LLM: {self.fallback_models[0]}")
         
         # Create custom prompt
         self.prompt = self._create_prompt()
